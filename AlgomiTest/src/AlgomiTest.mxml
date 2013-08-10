@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:s="library://ns.adobe.com/flex/spark" 
+			   xmlns:mx="library://ns.adobe.com/flex/mx" 
+			   minWidth="955" minHeight="600" 
+			   xmlns:parsley="http://www.spicefactory.org/parsley" 
+			   xmlns:views="com.flexproject.views.*" >
+	<fx:Style source="styles.css"/>
+	
+	<fx:Script>
+		<![CDATA[
+			import com.flexproject.model.FlexProjectPM;
+			FlexProjectPM;
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<parsley:ContextBuilder>
+			<parsley:XmlConfig file="xml/config.xml"/>
+		</parsley:ContextBuilder>
+		<parsley:Configure/>		 
+	</fx:Declarations>
+	<s:layout>
+		<s:HorizontalLayout horizontalAlign="center" verticalAlign="middle">
+		</s:HorizontalLayout>
+	</s:layout>
+	<views:MainView/>
+</s:Application>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/testRep/!svn/ver/4/trunk/FlexProject
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/testRep/!svn/ver/3/trunk/FlexProject/.project
+END
+.flexProperties
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/testRep/!svn/ver/3/trunk/FlexProject/.flexProperties
+END
+.actionScriptProperties
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/testRep/!svn/ver/4/trunk/FlexProject/.actionScriptProperties
+END

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Panel xmlns:fx="http://ns.adobe.com/mxml/2009"
+		 xmlns:s="library://ns.adobe.com/flex/spark"
+		 xmlns:mx="library://ns.adobe.com/flex/mx"
+		 xmlns:parsley="http://www.spicefactory.org/parsley"
+		 width="700" height="500" enabled="true" title="Specification">
+	<fx:Script>
+		<![CDATA[
+			import com.flexproject.interfaces.IFlexProjectPM;
+			
+			import mx.controls.Alert;
+			
+			import org.spicefactory.parsley.core.context.Context;
+			
+			[Inject]
+			public var context:Context;
+			
+			[Inject (id="projectPM")]
+			[Bindable]
+			public var projectPM:IFlexProjectPM;
+			
+			[Init]
+			public function init() : void 
+			{
+				projectPM.init(); //init arrayCollections
+			}
+			
+			protected function loadNames_clickHandler(event:MouseEvent):void
+			{
+				projectPM.loadNames(); // load names after button clicking
+			}
+			
+			
+			protected function search_keyUpHandler(event:KeyboardEvent):void
+			{
+				if(event.currentTarget.text && event.currentTarget.text!="")
+					projectPM.filterByLastName(event.currentTarget.text); // start search
+				else
+					projectPM.clearSearch(); // no text than clear search
+			}
+			
+			protected function decode(item:Object):String
+			{
+				return item.name+" "+item.surname; //Set the label function in the first list ex Pedro Machado
+			}
+
+			
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<parsley:Configure/>
+	</fx:Declarations>
+	<s:layout>
+		<s:HorizontalLayout horizontalAlign="center" verticalAlign="middle">
+		</s:HorizontalLayout>
+	</s:layout>
+	<s:VGroup width="100%" height="100%" verticalAlign="middle" horizontalAlign="left" paddingBottom="16" paddingTop="16" paddingLeft="16" paddingRight="16">
+		<s:Label styleName="myLabel" text="1. Click 'Load Names' to load a list of people"/>
+		<s:Button label="Load Names" click="loadNames_clickHandler(event)" styleName="pushButton"/>
+		<s:List width="100%" height="100%" dataProvider="{projectPM.nameList}" labelFunction="decode">
+		</s:List>
+	</s:VGroup>
+	<s:VGroup height="100%" verticalAlign="middle" horizontalAlign="center" paddingBottom="16" paddingTop="16" paddingLeft="16" paddingRight="16">
+		<s:Label styleName="labelNext" text="&gt; &gt; &gt;"/>
+		
+		<s:Label styleName="labelNext" text="&gt; &gt; &gt;"/>
+	</s:VGroup>
+	<s:VGroup width="100%" height="100%" verticalAlign="middle" horizontalAlign="left" paddingBottom="16" paddingTop="16" paddingLeft="16" paddingRight="16">
+		<s:Label text="2. Type letters of last name to filter and sort" styleName="myLabel"/>
+		<s:TextInput keyUp="search_keyUpHandler(event)" styleName="myInput"/>
+		<s:List width="100%" height="100%" dataProvider="{projectPM.filteredList}">
+			<s:itemRenderer>
+				<fx:Component>
+					<s:ItemRenderer>
+						<s:HGroup verticalAlign="middle">
+							<s:Button label="{data.gender}" styleName="pushButton" width="48"/>
+							<s:Label id="nameLabel" styleName="myLabel" text="{data.surname}, {data.name}" top="5" left="5" right="5" />
+						</s:HGroup>
+					</s:ItemRenderer>
+				</fx:Component>
+			</s:itemRenderer>
+		</s:List>
+	</s:VGroup>
+	
+</s:Panel>
