@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 
-<ListDetails label="SWC Loading Details" projectName="AlgomiTest">
+<ListDetails label="SWC Loading Details" projectName="Showcase">
 
 
 <LoadedSetList label="LoadedSet List">
@@ -10,7 +10,7 @@
 <LoadingSet label="LoadingSet1:">
 
 
-<item  label="spicelib-flex-2.4.0.swc-2143080839" path="/Users/Pedro/Documents/Test/.metadata/.plugins/com.adobe.flexbuilder.codemodel/SwcCache/spicelib-flex-2.4.0.swc-2143080839/library.swf"/>
+<item  label="spicelib-flex-2.4.0.swc-272524839" path="/Users/Pedro/Documents/Test/.metadata/.plugins/com.adobe.flexbuilder.codemodel/SwcCache/spicelib-flex-2.4.0.swc-272524839/library.swf"/>
 
 
 <item  label="FlexUnitTestRunner_rb.swc-1137945575" path="/Users/Pedro/Documents/Test/.metadata/.plugins/com.adobe.flexbuilder.codemodel/SwcCache/FlexUnitTestRunner_rb.swc-1137945575/library.swf"/>
@@ -19,13 +19,13 @@
 <item  label="flexunit_0.9.swc-1181727463" path="/Users/Pedro/Documents/Test/.metadata/.plugins/com.adobe.flexbuilder.codemodel/SwcCache/flexunit_0.9.swc-1181727463/library.swf"/>
 
 
-<item  label="fds.swc1101716545" path="/Users/Pedro/Documents/Test/.metadata/.plugins/com.adobe.flexbuilder.codemodel/SwcCache/fds.swc1101716545/library.swf"/>
+<item  label="fds.swc-1322694751" path="/Users/Pedro/Documents/Test/.metadata/.plugins/com.adobe.flexbuilder.codemodel/SwcCache/fds.swc-1322694751/library.swf"/>
 
 
 <item  label="hamcrest-as3-flex-1.1.3.swc1330415657" path="/Users/Pedro/Documents/Test/.metadata/.plugins/com.adobe.flexbuilder.codemodel/SwcCache/hamcrest-as3-flex-1.1.3.swc1330415657/library.swf"/>
 
 
-<item  label="parsley-flex4-2.4.0.swc-120520735" path="/Users/Pedro/Documents/Test/.metadata/.plugins/com.adobe.flexbuilder.codemodel/SwcCache/parsley-flex4-2.4.0.swc-120520735/library.swf"/>
+<item  label="parsley-flex4-2.4.0.swc1750035265" path="/Users/Pedro/Documents/Test/.metadata/.plugins/com.adobe.flexbuilder.codemodel/SwcCache/parsley-flex4-2.4.0.swc1750035265/library.swf"/>
 
 
 <item  label="flexunit-4.1.0-8-flex_4.1.0.16076.swc-976263207" path="/Users/Pedro/Documents/Test/.metadata/.plugins/com.adobe.flexbuilder.codemodel/SwcCache/flexunit-4.1.0-8-flex_4.1.0.16076.swc-976263207/library.swf"/>
@@ -40,7 +40,7 @@
 <LoadingSet label="LoadingSet2:">
 
 
-<item  label="spicelib-flex-2.4.0.swc-2143080839" path="/Users/Pedro/Documents/Test/.metadata/.plugins/com.adobe.flexbuilder.codemodel/SwcCache/spicelib-flex-2.4.0.swc-2143080839/library.swf"/>
+<item  label="spicelib-flex-2.4.0.swc-272524839" path="/Users/Pedro/Documents/Test/.metadata/.plugins/com.adobe.flexbuilder.codemodel/SwcCache/spicelib-flex-2.4.0.swc-272524839/library.swf"/>
 
 
 <item  label="FlexUnitTestRunner_rb.swc-1137945575" path="/Users/Pedro/Documents/Test/.metadata/.plugins/com.adobe.flexbuilder.codemodel/SwcCache/FlexUnitTestRunner_rb.swc-1137945575/library.swf"/>
@@ -49,7 +49,7 @@
 <item  label="flexunit_0.9.swc-1181727463" path="/Users/Pedro/Documents/Test/.metadata/.plugins/com.adobe.flexbuilder.codemodel/SwcCache/flexunit_0.9.swc-1181727463/library.swf"/>
 
 
-<item  label="fds.swc1101716545" path="/Users/Pedro/Documents/Test/.metadata/.plugins/com.adobe.flexbuilder.codemodel/SwcCache/fds.swc1101716545/library.swf"/>
+<item  label="fds.swc-1322694751" path="/Users/Pedro/Documents/Test/.metadata/.plugins/com.adobe.flexbuilder.codemodel/SwcCache/fds.swc-1322694751/library.swf"/>
 
 
 <item  label="hamcrest-as3-flex-1.1.3.swc1330415657" path="/Users/Pedro/Documents/Test/.metadata/.plugins/com.adobe.flexbuilder.codemodel/SwcCache/hamcrest-as3-flex-1.1.3.swc1330415657/library.swf"/>
@@ -82,7 +82,7 @@
 <RemovedSet label="RemovedSet2:">
 
 
-<item  label="parsley-flex4-2.4.0.swc-120520735" path="/Users/Pedro/Documents/Test/.metadata/.plugins/com.adobe.flexbuilder.codemodel/SwcCache/parsley-flex4-2.4.0.swc-120520735/library.swf"/>
+<item  label="parsley-flex4-2.4.0.swc1750035265" path="/Users/Pedro/Documents/Test/.metadata/.plugins/com.adobe.flexbuilder.codemodel/SwcCache/parsley-flex4-2.4.0.swc1750035265/library.swf"/>
 
 
 </RemovedSet>

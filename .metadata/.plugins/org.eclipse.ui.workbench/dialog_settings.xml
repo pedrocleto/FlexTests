@@ -8,6 +8,7 @@
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/Users/Pedro/Desktop/Showcase.zip"/>
 			<item value="/Users/Pedro/Desktop/AlgomiTest.zip"/>
 			<item value="/Users/Pedro/Desktop/FlexProject.zip"/>
 			<item value="FlexProject.zip"/>
@@ -17,8 +18,8 @@
 		<item value="308" key="DIALOG_WIDTH"/>
 		<item value="org.eclipse.ui.views.ProgressView" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
 		<item value="109" key="DIALOG_Y_ORIGIN"/>
-		<item value="417" key="DIALOG_HEIGHT"/>
 		<item value="486" key="DIALOG_X_ORIGIN"/>
+		<item value="417" key="DIALOG_HEIGHT"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.ui"/>
@@ -29,16 +30,10 @@
 		</list>
 	</section>
 	<section name="ImportExportAction">
-		<item value="org.eclipse.ui.wizards.export.ZipFile" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<item value="com.adobe.flexbuilder.exportimport.exportwizard.ExportWizard" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
 		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
 			<item value="com.adobe.flexbuilder.export"/>
-			<item value="org.eclipse.jdt.ui.Java"/>
-			<item value="org.eclipse.debug.ui"/>
-			<item value="org.eclipse.mylyn.tasks.ui.wizards.export.category"/>
-			<item value="org.eclipse.team.ui.exportWizards"/>
-			<item value="org.eclipse.wst.XMLCategory"/>
-			<item value="org.eclipse.ui.Other"/>
 		</list>
 	</section>
 </section>

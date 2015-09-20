@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application 
+	xmlns:fx="http://ns.adobe.com/mxml/2009" 
+	xmlns:s="library://ns.adobe.com/flex/spark" 
+	xmlns:mx="library://ns.adobe.com/flex/mx" 
+	xmlns:local="*"
+	width="400" 
+	height="400"
+	creationComplete="application1_creationCompleteHandler(event)">
+
+	<s:layout>
+		<s:VerticalLayout/>
+	</s:layout>
+	
+	<fx:Script>
+		<![CDATA[
+			import mx.controls.Alert;
+			import mx.events.FlexEvent;
+			public var buttonLabels:Array = ["OK", "CANCEL", "YES", "NO"];
+			public var buttonLabels1:Array = ["YES", "NO"];
+			
+			[Bindable]
+			public var crtLabels:Array;
+			
+			protected function toggler_clickHandler(event:MouseEvent):void
+			{
+				crtLabels = (toggler.selected) ? buttonLabels1 : buttonLabels;   
+			}
+			
+			protected function removeAll_clickHandler(event:MouseEvent):void
+			{
+				crtLabels = [];   
+			}
+			
+			
+			protected function application1_creationCompleteHandler(event:FlexEvent):void
+			{
+				toggler_clickHandler(null);
+			}
+			
+		]]>
+	</fx:Script>
+	
+	<s:ToggleButton id="toggler" label="Toggle buttons" click="toggler_clickHandler(event)"/>
+	<s:Button id="removeAll" label="Remove all buttons" click="removeAll_clickHandler(event)"/>
+	<local:EnhancedPanel id="panel" top="100" customData="{crtLabels}"/>
+	
+</s:Application>

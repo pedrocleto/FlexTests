@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Panel xmlns:fx="http://ns.adobe.com/mxml/2009"
+		 xmlns:s="library://ns.adobe.com/flex/spark"
+		 xmlns:mx="library://ns.adobe.com/flex/mx"
+		 xmlns:parsley="http://www.spicefactory.org/parsley"
+		 width="100%" height="100%" enabled="true" title="Showcase"
+		 xmlns:components="com.flexproject.components.*"
+		 creationComplete="creationComplete(event)">
+	<fx:Script>
+		<![CDATA[
+			import com.flexproject.components.MainDatagridPanel;
+			import com.flexproject.components.ResizableTitleWindow;
+			import com.flexproject.events.FlexProjectPMEvents;
+			import com.flexproject.interfaces.IFlexProjectPM;
+			import com.flexproject.model.FlexProjectPM;
+			
+			import mx.controls.Alert;
+			import mx.core.IFlexDisplayObject;
+			import mx.events.CloseEvent;
+			import mx.events.FlexEvent;
+			import mx.managers.PopUpManager;
+			
+			import org.spicefactory.parsley.core.context.Context;
+			
+			import spark.components.TitleWindow;
+			
+			[Inject]
+			public var context:Context;
+			
+			[Inject (id="projectPM")]
+			[Bindable]
+			public var projectPM:IFlexProjectPM;
+			
+			public var timer:Timer;
+
+			private const TIMER_INTERVAL:int = 50;
+			private var timerAtStart:int = 0;	
+			
+			private var firstTime:String = "";	
+			private var lastTime:String = "";	
+			
+			private function updateTimer( evt:TimerEvent ):void{
+				var d:Date = new Date( getTimer() - timerAtStart );
+				mainGroup.updateDate(d);
+			}		
+			
+			[Init]
+			public function init() : void 
+			{
+				projectPM.init(); //init arrayCollections
+				
+				timer = new Timer(TIMER_INTERVAL);
+				timer.addEventListener( TimerEvent.TIMER, updateTimer );
+
+			}
+			
+			[MessageHandler(selector="UpdateListEvent")]//To show the use of parsley events
+			public function updateHandler(event:FlexProjectPMEvents):void
+			{
+				var timestamp:String=event.data.toString();
+				if(firstTime=="")
+				{
+					firstTime=timestamp;
+					lastTime=timestamp;
+				}
+				else
+					lastTime=timestamp;
+				
+				mainGroup.updateTimes(firstTime,lastTime);
+			}
+			
+			[MessageHandler(selector="ErrorListEvent")]
+			public function errorHandler(event:FlexProjectPMEvents):void
+			{
+				Alert.show(event.data.faultString); //To show the use of parsley events
+			}
+			
+			protected function startFeed_clickHandler(event:Event):void
+			{
+				firstTime="";
+				lastTime="";
+				mainGroup.updateTimes(firstTime,lastTime);
+				projectPM.startFeed(); // start feed after button clicking
+				mainGroup.startStop.text="Started: ";
+				timerAtStart = getTimer();
+				timer.start()
+			}
+			
+			protected function stopFeed_clickHandler(event:Event):void
+			{
+				projectPM.stopFeed(); // stop feed after button clicking
+				mainGroup.startStop.text="Stoped: ";
+				timer.stop();
+				
+			}
+
+			
+			protected function creationComplete(event:FlexEvent):void
+			{
+				// TODO Auto-generated method stub
+				
+				mainGroup.addEventListener("START",startFeed_clickHandler,false,0,true);
+				mainGroup.addEventListener("STOP",stopFeed_clickHandler,false,0,true);
+			}
+			
+			
+			public function createPopUp(type:String):void
+			{
+				var rtw:ResizableTitleWindow = new ResizableTitleWindow();
+				rtw.title = "Grid";
+				rtw.minHeight = 300;
+				rtw.minWidth = 450;
+
+				var mp:MainDatagridPanel=new MainDatagridPanel();
+				mp.provider = projectPM.filteredList;
+				mp.percentHeight = 100;
+				mp.percentWidth = 100;
+				
+				rtw.addEventListener(CloseEvent.CLOSE, closeHandler);
+				rtw.addElement(mp);
+				PopUpManager.addPopUp(rtw, this, false);
+			}
+			
+			private function closeHandler(event:Event):void
+			{
+				event.target.removeEventListener(CloseEvent.CLOSE, closeHandler);
+				PopUpManager.removePopUp(event.target as IFlexDisplayObject);
+			}
+			
+		]]>
+	</fx:Script>
+	
+	<fx:Declarations>
+		<parsley:Configure/>
+	</fx:Declarations>
+	
+	<s:layout>
+		<s:HorizontalLayout horizontalAlign="center" verticalAlign="top">
+		</s:HorizontalLayout>
+	</s:layout>
+	
+	<s:VGroup width="100%" height="100%" verticalAlign="top" horizontalAlign="left" paddingBottom="16" paddingTop="16" paddingLeft="16" paddingRight="16">
+		<s:Label styleName="myLabel" text="Click 'Start' to start feed"/>
+		
+		<components:MainButtonGroup id="mainGroup" width="100%"/>
+		
+		<s:HGroup>
+			<s:Button label="DataGrid" click="createPopUp('Grid');" />
+			<s:Button label="Chart" click="createPopUp('Chart');" />
+		</s:HGroup>
+		
+		
+		
+	</s:VGroup>
+</s:Panel>

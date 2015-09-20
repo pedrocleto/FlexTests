@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="56" version="2.0">
+<workbench progressCount="44" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="21" y="28">
 <fastViewData fastViewLocation="1024"/>
@@ -18,11 +18,12 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.compare.CompareEditor" itemType="typePlaceholder" x="76" y="22"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.PropertiesFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.adobe.flexbuilder.editors.css.editors.CSSEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -56,108 +57,107 @@
 <part id="20"/>
 <part id="21"/>
 <part id="22"/>
-<part id="23"/>
-<part id="24"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.adobe.flexbuilder.ui.StartPage" name="Web Browser" partName="Start Page" title="Start Page" tooltip="Flash Builder Start Page" workbook="DefaultEditorWorkbook">
-<input factoryID="com.adobe.flexbuilder.editors.derived.ui.startpage.StartPageEditorInput" iconpath="platform:/plugin/com.adobe.flexbuilder.ui/icons/fb_app_16.png" style="20" tooltip="Flash Builder Start Page" url="file:/Applications/Adobe Flash Builder 4.5/eclipse/plugins/com.adobe.flexbuilder.ui_4.5.1.313231/welcome/welcome.html?firstLaunch=false&amp;edition=prem&amp;version=451"/>
+<editor activePart="true" focus="true" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ButtonBar.as" partName="ButtonBar.as" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/components/ButtonBar.as" title="ButtonBar.as" tooltip="Showcase/src/com/flexproject/components/ButtonBar.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/components/ButtonBar.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="407" selectionTopPixel="1636"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="IFlexProjectPM.as" partName="IFlexProjectPM.as" path="/Users/Pedro/Documents/Test/FlexProject/src/com/flexproject/interfaces/IFlexProjectPM.as" title="IFlexProjectPM.as" tooltip="FlexProject/src/com/flexproject/interfaces/IFlexProjectPM.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FlexProject/src/com/flexproject/interfaces/IFlexProjectPM.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="112" selectionTopPixel="0"/>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="GroupButtonSkin.mxml" partName="GroupButtonSkin.mxml" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/skins/GroupButtonSkin.mxml" title="GroupButtonSkin.mxml" tooltip="Showcase/src/com/flexproject/skins/GroupButtonSkin.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/skins/GroupButtonSkin.mxml"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="FlexProject.mxml" partName="FlexProject.mxml" path="/Users/Pedro/Documents/Test/FlexProject/src/FlexProject.mxml" title="FlexProject.mxml" tooltip="FlexProject/src/FlexProject.mxml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FlexProject/src/FlexProject.mxml"/>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="MainView.mxml" partName="MainView.mxml" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/views/MainView.mxml" title="MainView.mxml" tooltip="Showcase/src/com/flexproject/views/MainView.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/views/MainView.mxml"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.css.editors.CSSEditor" name="styles.css" partName="styles.css" path="/Users/Pedro/Documents/Test/FlexProject/src/styles.css" title="styles.css" tooltip="FlexProject/src/styles.css" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FlexProject/src/styles.css"/>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="DataGridSkin.mxml" partName="DataGridSkin.mxml" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/skins/DataGridSkin.mxml" title="DataGridSkin.mxml" tooltip="Showcase/src/com/flexproject/skins/DataGridSkin.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/skins/DataGridSkin.mxml"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FlexProjectPMEvents.as" partName="FlexProjectPMEvents.as" path="/Users/Pedro/Documents/Test/FlexProject/src/com/flexproject/events/FlexProjectPMEvents.as" title="FlexProjectPMEvents.as" tooltip="FlexProject/src/com/flexproject/events/FlexProjectPMEvents.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FlexProject/src/com/flexproject/events/FlexProjectPMEvents.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="20" selectionOffset="460" selectionTopPixel="0"/>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="DynamicSkinParts.mxml" partName="DynamicSkinParts.mxml" path="/Users/Pedro/Documents/Test/DynamicSkinParts/src/DynamicSkinParts.mxml" title="DynamicSkinParts.mxml" tooltip="DynamicSkinParts/src/DynamicSkinParts.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DynamicSkinParts/src/DynamicSkinParts.mxml"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FlexProjectService.as" partName="FlexProjectService.as" path="/Users/Pedro/Documents/Test/FlexProject/src/com/flexproject/services/FlexProjectService.as" title="FlexProjectService.as" tooltip="FlexProject/src/com/flexproject/services/FlexProjectService.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FlexProject/src/com/flexproject/services/FlexProjectService.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="438"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="EnhancedPanel.as" partName="EnhancedPanel.as" path="/Users/Pedro/Documents/Test/DynamicSkinParts/src/EnhancedPanel.as" title="EnhancedPanel.as" tooltip="DynamicSkinParts/src/EnhancedPanel.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DynamicSkinParts/src/EnhancedPanel.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="211" selectionTopPixel="44"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="MockService.as" partName="MockService.as" path="/Users/Pedro/Documents/Test/FlexProject/src/com/flexproject/services/MockService.as" title="MockService.as" tooltip="FlexProject/src/com/flexproject/services/MockService.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FlexProject/src/com/flexproject/services/MockService.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="39"/>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="EnhancedPanelSkin.mxml" partName="EnhancedPanelSkin.mxml" path="/Users/Pedro/Documents/Test/DynamicSkinParts/src/EnhancedPanelSkin.mxml" title="EnhancedPanelSkin.mxml" tooltip="DynamicSkinParts/src/EnhancedPanelSkin.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DynamicSkinParts/src/EnhancedPanelSkin.mxml"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="Person.as" partName="Person.as" path="/Users/Pedro/Documents/Test/FlexProject/src/com/flexproject/services/vo/Person.as" title="Person.as" tooltip="FlexProject/src/com/flexproject/services/vo/Person.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FlexProject/src/com/flexproject/services/vo/Person.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="MainDatagridPanel.as" partName="MainDatagridPanel.as" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/components/MainDatagridPanel.as" title="MainDatagridPanel.as" tooltip="Showcase/src/com/flexproject/components/MainDatagridPanel.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/components/MainDatagridPanel.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="105" selectionOffset="796" selectionTopPixel="301"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="FlexUnitApplication.mxml" partName="FlexUnitApplication.mxml" path="/Users/Pedro/Documents/Test/FlexProject/src/FlexUnitApplication.mxml" title="FlexUnitApplication.mxml" tooltip="FlexProject/src/FlexUnitApplication.mxml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FlexProject/src/FlexUnitApplication.mxml"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="Constants.as" partName="Constants.as" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/vo/Constants.as" title="Constants.as" tooltip="Showcase/src/com/flexproject/vo/Constants.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/vo/Constants.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="448" selectionTopPixel="0"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="FlexUnitCompilerApplication.mxml" partName="FlexUnitCompilerApplication.mxml" path="/Users/Pedro/Documents/Test/FlexProject/src/FlexUnitCompilerApplication.mxml" title="FlexUnitCompilerApplication.mxml" tooltip="FlexProject/src/FlexUnitCompilerApplication.mxml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FlexProject/src/FlexUnitCompilerApplication.mxml"/>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ButtonSkin.mxml" partName="ButtonSkin.mxml" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/skins/ButtonSkin.mxml" title="ButtonSkin.mxml" tooltip="Showcase/src/com/flexproject/skins/ButtonSkin.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/skins/ButtonSkin.mxml"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FlexProjectTestSuite.as" partName="FlexProjectTestSuite.as" path="/Users/Pedro/Documents/Test/FlexProject/src/flexUnitTests/FlexProjectTestSuite.as" title="FlexProjectTestSuite.as" tooltip="FlexProject/src/flexUnitTests/FlexProjectTestSuite.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FlexProject/src/flexUnitTests/FlexProjectTestSuite.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="MainChartPanel.as" partName="MainChartPanel.as" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/components/MainChartPanel.as" title="MainChartPanel.as" tooltip="Showcase/src/com/flexproject/components/MainChartPanel.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/components/MainChartPanel.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="1772" selectionOffset="2172" selectionTopPixel="1996"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FlexProjectSearchNames.as" partName="FlexProjectSearchNames.as" path="/Users/Pedro/Documents/Test/FlexProject/src/flexUnitTests/FlexProjectSearchNames.as" title="FlexProjectSearchNames.as" tooltip="FlexProject/src/flexUnitTests/FlexProjectSearchNames.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FlexProject/src/flexUnitTests/FlexProjectSearchNames.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="579"/>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ChartPanelSkin.mxml" partName="ChartPanelSkin.mxml" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/skins/ChartPanelSkin.mxml" title="ChartPanelSkin.mxml" tooltip="Showcase/src/com/flexproject/skins/ChartPanelSkin.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/skins/ChartPanelSkin.mxml"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="AlgomiTest.mxml" partName="AlgomiTest.mxml" path="/Users/Pedro/Documents/Test/AlgomiTest/src/AlgomiTest.mxml" title="AlgomiTest.mxml" tooltip="AlgomiTest/src/AlgomiTest.mxml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AlgomiTest/src/AlgomiTest.mxml"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ButtonPopUP.as" partName="ButtonPopUP.as" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/components/ButtonPopUP.as" title="ButtonPopUP.as" tooltip="Showcase/src/com/flexproject/components/ButtonPopUP.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/components/ButtonPopUP.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="731" selectionTopPixel="240"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="FlexUnitApplication.mxml" partName="FlexUnitApplication.mxml" path="/Users/Pedro/Documents/Test/AlgomiTest/src/FlexUnitApplication.mxml" title="FlexUnitApplication.mxml" tooltip="AlgomiTest/src/FlexUnitApplication.mxml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AlgomiTest/src/FlexUnitApplication.mxml"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="MockConsumer.as" partName="MockConsumer.as" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/mock/MockConsumer.as" title="MockConsumer.as" tooltip="Showcase/src/com/flexproject/mock/MockConsumer.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/mock/MockConsumer.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1501" selectionTopPixel="540"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FlexProjectStartFeedTester.as" partName="FlexProjectStartFeedTester.as" path="/Users/Pedro/Documents/Test/AlgomiTest/src/flexUnitTests/FlexProjectStartFeedTester.as" title="FlexProjectStartFeedTester.as" tooltip="AlgomiTest/src/flexUnitTests/FlexProjectStartFeedTester.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AlgomiTest/src/flexUnitTests/FlexProjectStartFeedTester.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1371" selectionTopPixel="645"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FlexProjectPM.as" partName="FlexProjectPM.as" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/model/FlexProjectPM.as" title="FlexProjectPM.as" tooltip="Showcase/src/com/flexproject/model/FlexProjectPM.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/model/FlexProjectPM.as"/>
+<editorState selectionHorizontalPixel="8" selectionLength="0" selectionOffset="4455" selectionTopPixel="1244"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="FlexUnitCompilerApplication.mxml" partName="FlexUnitCompilerApplication.mxml" path="/Users/Pedro/Documents/Test/AlgomiTest/src/FlexUnitCompilerApplication.mxml" title="FlexUnitCompilerApplication.mxml" tooltip="AlgomiTest/src/FlexUnitCompilerApplication.mxml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AlgomiTest/src/FlexUnitCompilerApplication.mxml"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="CountryVO.as" partName="CountryVO.as" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/vo/CountryVO.as" title="CountryVO.as" tooltip="Showcase/src/com/flexproject/vo/CountryVO.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/vo/CountryVO.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="236" selectionTopPixel="0"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FlexProjectPM.as" partName="FlexProjectPM.as" path="/Users/Pedro/Documents/Test/AlgomiTest/src/com/flexproject/model/FlexProjectPM.as" title="FlexProjectPM.as" tooltip="AlgomiTest/src/com/flexproject/model/FlexProjectPM.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AlgomiTest/src/com/flexproject/model/FlexProjectPM.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4091" selectionTopPixel="973"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="IFlexProjectPM.as" partName="IFlexProjectPM.as" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/interfaces/IFlexProjectPM.as" title="IFlexProjectPM.as" tooltip="Showcase/src/com/flexproject/interfaces/IFlexProjectPM.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/interfaces/IFlexProjectPM.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="448" selectionTopPixel="0"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FlexProjectService.as" partName="FlexProjectService.as" path="/Users/Pedro/Documents/Test/AlgomiTest/src/com/flexproject/services/FlexProjectService.as" title="FlexProjectService.as" tooltip="AlgomiTest/src/com/flexproject/services/FlexProjectService.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AlgomiTest/src/com/flexproject/services/FlexProjectService.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="398" selectionTopPixel="24"/>
+<editor id="com.adobe.flexbuilder.editors.css.editors.CSSEditor" name="styles.css" partName="styles.css" path="/Users/Pedro/Documents/Test/Showcase/src/styles.css" title="styles.css" tooltip="Showcase/src/styles.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/styles.css"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="IFlexProjectService.as" partName="IFlexProjectService.as" path="/Users/Pedro/Documents/Test/AlgomiTest/src/com/flexproject/services/interfaces/IFlexProjectService.as" title="IFlexProjectService.as" tooltip="AlgomiTest/src/com/flexproject/services/interfaces/IFlexProjectService.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AlgomiTest/src/com/flexproject/services/interfaces/IFlexProjectService.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="183" selectionTopPixel="0"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="CountriesDB.as" partName="CountriesDB.as" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/model/CountriesDB.as" title="CountriesDB.as" tooltip="Showcase/src/com/flexproject/model/CountriesDB.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/model/CountriesDB.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7026" selectionTopPixel="1897"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="IFlexProjectPM.as" partName="IFlexProjectPM.as" path="/Users/Pedro/Documents/Test/AlgomiTest/src/com/flexproject/interfaces/IFlexProjectPM.as" title="IFlexProjectPM.as" tooltip="AlgomiTest/src/com/flexproject/interfaces/IFlexProjectPM.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AlgomiTest/src/com/flexproject/interfaces/IFlexProjectPM.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="288" selectionTopPixel="0"/>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="Showcase.mxml" partName="Showcase.mxml" path="/Users/Pedro/Documents/Test/Showcase/src/Showcase.mxml" title="Showcase.mxml" tooltip="Showcase/src/Showcase.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/Showcase.mxml"/>
 </editor>
-<editor activePart="true" focus="true" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="MainView.mxml" partName="MainView.mxml" path="/Users/Pedro/Documents/Test/AlgomiTest/src/com/flexproject/views/MainView.mxml" title="MainView.mxml" tooltip="AlgomiTest/src/com/flexproject/views/MainView.mxml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AlgomiTest/src/com/flexproject/views/MainView.mxml"/>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ResizableTitleWindowSkin.mxml" partName="ResizableTitleWindowSkin.mxml" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/skins/ResizableTitleWindowSkin.mxml" title="ResizableTitleWindowSkin.mxml" tooltip="Showcase/src/com/flexproject/skins/ResizableTitleWindowSkin.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/skins/ResizableTitleWindowSkin.mxml"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.css.editors.CSSEditor" name="styles.css" partName="styles.css" path="/Users/Pedro/Documents/Test/AlgomiTest/src/styles.css" title="styles.css" tooltip="AlgomiTest/src/styles.css" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AlgomiTest/src/styles.css"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FlexProjectPMEvents.as" partName="FlexProjectPMEvents.as" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/events/FlexProjectPMEvents.as" title="FlexProjectPMEvents.as" tooltip="Showcase/src/com/flexproject/events/FlexProjectPMEvents.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/events/FlexProjectPMEvents.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="19" selectionOffset="131" selectionTopPixel="0"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FlexProjectPMEvents.as" partName="FlexProjectPMEvents.as" path="/Users/Pedro/Documents/Test/AlgomiTest/src/com/flexproject/events/FlexProjectPMEvents.as" title="FlexProjectPMEvents.as" tooltip="AlgomiTest/src/com/flexproject/events/FlexProjectPMEvents.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AlgomiTest/src/com/flexproject/events/FlexProjectPMEvents.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="479" selectionTopPixel="0"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FlexProjectTestSuite.as" partName="FlexProjectTestSuite.as" path="/Users/Pedro/Documents/Test/AlgomiTest/src/flexUnitTests/FlexProjectTestSuite.as" title="FlexProjectTestSuite.as" tooltip="AlgomiTest/src/flexUnitTests/FlexProjectTestSuite.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AlgomiTest/src/flexUnitTests/FlexProjectTestSuite.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="152" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="config.xml" partName="config.xml" path="/Users/Pedro/Documents/Test/AlgomiTest/src/xml/config.xml" title="config.xml" tooltip="AlgomiTest/src/xml/config.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AlgomiTest/src/xml/config.xml"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="MainButtonGroup.as" partName="MainButtonGroup.as" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/components/MainButtonGroup.as" title="MainButtonGroup.as" tooltip="Showcase/src/com/flexproject/components/MainButtonGroup.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/components/MainButtonGroup.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="15" selectionOffset="292" selectionTopPixel="63"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.team.ui.GenericHistoryView" partName="History">
 <viewState/>
 </view>
+<view id="com.adobe.flash.profiler.ui.Monitor" partName="Profile">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.ProgressView" partName="Progress">
 <viewState/>
+</view>
+<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
+<viewState isPinned="false">
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+</viewState>
 </view>
 <view id="org.eclipse.debug.ui.DebugView" partName="Debug">
 <viewState/>
@@ -165,22 +165,24 @@
 <view id="com.adobe.flexbuilder.packageexplorer" partName="Package Explorer">
 <viewState LINK_NAVIGATOR_TO_EDITOR="0" fpeIsFlat="0" fpeSortBy="1" sorter="1">
 <fpeExpanded>
-<fpeElement fpePath="/AlgomiTest/src"/>
-<fpeElement fpePath="/AlgomiTest/src/%typeDefaultPackage"/>
-<fpeElement fpePath="/AlgomiTest/src/com/flexproject"/>
-<fpeElement fpePath="/AlgomiTest/src/com/flexproject/events"/>
-<fpeElement fpePath="/AlgomiTest/src/com/flexproject/interfaces"/>
-<fpeElement fpePath="/AlgomiTest/src/com/flexproject/model"/>
-<fpeElement fpePath="/AlgomiTest/src/com/flexproject/views"/>
-<fpeElement fpePath="/AlgomiTest/src/com/flexproject/vo"/>
-<fpeElement fpePath="/AlgomiTest/src/flexUnitTests"/>
-<fpeElement fpePath="/AlgomiTest/src/xml"/>
-<fpeElement fpePath="/AlgomiTest/bin-debug"/>
-<fpeElement fpePath="/AlgomiTest/html-template"/>
-<fpeElement fpePath="/AlgomiTest/libs"/>
+<fpeElement fpePath="/Showcase"/>
+<fpeElement fpePath="/Showcase/src"/>
+<fpeElement fpePath="/Showcase/src/%typeDefaultPackage"/>
+<fpeElement fpePath="/Showcase/src/assets"/>
+<fpeElement fpePath="/Showcase/src/com/flexproject"/>
+<fpeElement fpePath="/Showcase/src/com/flexproject/components"/>
+<fpeElement fpePath="/Showcase/src/com/flexproject/interfaces"/>
+<fpeElement fpePath="/Showcase/src/com/flexproject/mock"/>
+<fpeElement fpePath="/Showcase/src/com/flexproject/model"/>
+<fpeElement fpePath="/Showcase/src/com/flexproject/skins"/>
+<fpeElement fpePath="/Showcase/src/com/flexproject/utils"/>
+<fpeElement fpePath="/Showcase/src/com/flexproject/views"/>
+<fpeElement fpePath="/Showcase/src/com/flexproject/vo"/>
+<fpeElement fpePath="/Showcase/src/flexUnitTests"/>
+<fpeElement fpePath="/Showcase/src/xml"/>
 </fpeExpanded>
 <fpeSelection>
-<fpeElement fpePath="/AlgomiTest"/>
+<fpeElement fpePath="/Showcase/src/com/flexproject/components/ButtonBar.as"/>
 </fpeSelection>
 <filters>
 <filter element="*.class" isEnabled="false"/>
@@ -202,12 +204,17 @@
 <filter element=".DS_Store" isEnabled="true"/>
 <filter element=".model" isEnabled="true"/>
 </filters>
+<expanded>
+<element path="/Showcase"/>
+</expanded>
 <selection>
-<element path="/AlgomiTest"/>
+<element path="/Showcase/src/com/flexproject/components/ButtonBar.as"/>
 </selection>
 </viewState>
 </view>
-<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints"/>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState/>
+</view>
 <view id="org.eclipse.debug.ui.VariableView" partName="Variables">
 <viewState/>
 </view>
@@ -215,7 +222,9 @@
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
-<view id="org.eclipse.debug.ui.ExpressionView" partName="Expressions"/>
+<view id="org.eclipse.debug.ui.ExpressionView" partName="Expressions">
+<viewState/>
+</view>
 <view id="org.eclipse.mylyn.tasks.ui.views.repositories" partName="Task Repositories">
 <viewState/>
 </view>
@@ -225,10 +234,9 @@
 <view id="org.tigris.subversion.subclipse.ui.annotations.AnnotateView" partName="SVN Annotate"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>&#x0A;<category IMemento.internal.id="Errors (2 items)"/>
-<category IMemento.internal.id="Errors"/>
+<expanded>&#x0A;<category IMemento.internal.id="Errors (3 items)"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="84" org.eclipse.ui.ide.markerType="114" org.eclipse.ui.ide.pathField="144" org.eclipse.ui.ide.resourceField="159" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<columnWidths org.eclipse.ui.ide.locationField="84" org.eclipse.ui.ide.markerType="114" org.eclipse.ui.ide.pathField="144" org.eclipse.ui.ide.resourceField="159" org.eclipse.ui.ide.severityAndDescriptionField="898"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -243,11 +251,12 @@
 <view id="org.tigris.subversion.subclipse.ui.repository.RepositoriesView" partName="SVN Repositories">
 <viewState/>
 </view>
+<view id="com.adobe.flash.profiler.ui.OfflineMonitor" partName="Saved Profiling Data"/>
 <view id="com.adobe.flexbuilder.as.editor.asdocviewer" partName="ASDoc">
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.views.ProgressView" activePerspective="com.adobe.flexbuilder.editors.mxml.ui.perspectives.development">
+<perspectives activePart="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" activePerspective="com.adobe.flexbuilder.editors.mxml.ui.perspectives.development">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.adobe.flexbuilder.mxml.editor.ui.perspectives.DevelopmentPerspectiveFactory" id="com.adobe.flexbuilder.editors.mxml.ui.perspectives.development" label="Flash"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -272,8 +281,8 @@
 <alwaysOnActionSet id="com.adobe.flexbuilder.debug.ui.flexDebuggingActionSet"/>
 <alwaysOnActionSet id="com.adobe.flexbuilder.zzz.editors.common.ui.project.publish"/>
 <alwaysOnActionSet id="com.adobe.flexbuilder.exportimport.actionSet1"/>
-<alwaysOnActionSet id="com.adobe.flexbuilder.as.editor.ui.NavigationActions"/>
 <alwaysOnActionSet id="com.adobe.flexbuilder.dcrad.actionSet"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.as.editor.ui.NavigationActions"/>
 <show_view_action id="com.adobe.flexbuilder.mxml.editor.AppearanceView"/>
 <show_view_action id="com.adobe.flexbuilder.mxml.editor.components.ComponentsView"/>
 <show_view_action id="com.adobe.flexbuilder.packageexplorer"/>
@@ -316,8 +325,10 @@
 <view id="com.adobe.flexbuilder.monitors.network.view.NetworkMonitorView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="com.adobe.flexbuilder.flexunitrunresults.ui.views.FlexUnitResultListView"/>
-<view id="com.adobe.flexbuilder.as.editor.asdocviewer"/>
 <view id="org.eclipse.ui.views.ProgressView"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<view id="org.eclipse.team.ui.GenericHistoryView"/>
+<view id="com.adobe.flexbuilder.as.editor.asdocviewer"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -349,15 +360,17 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="bottomLayout" ratio="0.5626822" ratioLeft="386" ratioRight="300" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ProgressView" appearance="2" expanded="2">
+<info folder="true" part="bottomLayout" ratio="0.6530612" ratioLeft="448" ratioRight="238" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.search.ui.views.SearchView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="com.adobe.flexbuilder.dcrad.views.DataServicesView" label="Data/Services"/>
 <page content="com.adobe.flexbuilder.monitors.network.view.NetworkMonitorView" label="Network Monitor"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="com.adobe.flexbuilder.flexunitrunresults.ui.views.FlexUnitResultListView" label="FlexUnit Results"/>
-<page content="com.adobe.flexbuilder.as.editor.asdocviewer" label="ASDoc"/>
 <page content="org.eclipse.ui.views.ProgressView" label="Progress"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<page content="org.eclipse.team.ui.GenericHistoryView" label="History"/>
+<page content="com.adobe.flexbuilder.as.editor.asdocviewer" label="ASDoc"/>
 <page content="com.adobe.flexbuilder.mxml.editor.design.internal.errors.view.DesignModeProblemsView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
@@ -367,6 +380,8 @@
 <part id="4"/>
 <part id="5"/>
 <part id="6"/>
+<part id="7"/>
+<part id="8"/>
 </presentation>
 </folder>
 </info>
@@ -417,39 +432,26 @@
 <view id="org.eclipse.team.ui.GenericHistoryView"/>
 <view id="org.eclipse.mylyn.tasks.ui.views.repositories"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="top">
-<folder activePageID="org.tigris.subversion.subclipse.ui.repository.RepositoriesView" appearance="2" expanded="2">
-<page content="org.tigris.subversion.subclipse.ui.repository.RepositoriesView" label="SVN Repositories"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="top">&#x0A;<folder activePageID="org.tigris.subversion.subclipse.ui.repository.RepositoriesView" appearance="2" expanded="2">&#x0A;<page content="org.tigris.subversion.subclipse.ui.repository.RepositoriesView" label="SVN Repositories"/>
 <page content="org.tigris.subversion.subclipse.ui.annotations.AnnotateView" label="SVN Annotate"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="762" ratioRight="254" relationship="2" relative="top">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="762" ratioRight="254" relationship="2" relative="top">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.3996063" ratioLeft="406" ratioRight="610" relationship="2" relative="top"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@bb078c" ratio="0.6998536" ratioLeft="478" ratioRight="205" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.team.ui.GenericHistoryView" appearance="2" expanded="2">
-<page content="org.eclipse.team.ui.GenericHistoryView" label="History"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@bb078c" ratio="0.6998536" ratioLeft="478" ratioRight="205" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.team.ui.GenericHistoryView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.team.ui.GenericHistoryView" label="History"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@ec9c17" ratio="0.6998536" ratioLeft="478" ratioRight="205" relationship="4" relative="top">
-<folder activePageID="org.eclipse.mylyn.tasks.ui.views.repositories" appearance="2" expanded="2">
-<page content="org.eclipse.mylyn.tasks.ui.views.repositories" label="Task Repositories"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@ec9c17" ratio="0.6998536" ratioLeft="478" ratioRight="205" relationship="4" relative="top">&#x0A;<folder activePageID="org.eclipse.mylyn.tasks.ui.views.repositories" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.mylyn.tasks.ui.views.repositories" label="Task Repositories"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
@@ -477,9 +479,10 @@
 <alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
 <alwaysOnActionSet id="com.adobe.flexbuilder.debug.ui.flexDebuggingActionSet"/>
-<alwaysOnActionSet id="com.adobe.flexbuilder.dcrad.actionSet"/>
 <alwaysOnActionSet id="com.adobe.flexbuilder.zzz.editors.common.ui.project.publish"/>
 <alwaysOnActionSet id="com.adobe.flexbuilder.exportimport.actionSet1"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.dcrad.actionSet"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.as.editor.ui.NavigationActions"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
 <show_view_action id="org.eclipse.debug.ui.VariableView"/>
 <show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
@@ -547,8 +550,8 @@
 </presentation>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.32945737" ratioLeft="170" ratioRight="346" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="636" ratioRight="636" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<info part="org.eclipse.ui.editorss" ratio="0.5137255" ratioLeft="262" ratioRight="248" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="636" ratioRight="636" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.ExpressionView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
@@ -560,171 +563,274 @@
 </mainWindow>
 </layout>
 </perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
+<descriptor class="com.adobe.flash.profiler.ui.PerspectiveFactory" id="com.adobe.flash.profiler.ui.ProfilingPerspective" label="Flash Profile"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.editorcore.modeswitch"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.flashbridge.flashproject.actionSet"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.designview.activationcontrol"/>
+<alwaysOnActionSet id="com.adobe.flash.profiler.ui.ProfileActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.profileActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.debug.ui.flexDebuggingActionSet"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.exportimport.actionSet1"/>
+<show_view_action id="com.adobe.flash.profiler.ui.Monitor"/>
+<show_view_action id="com.adobe.flash.profiler.ui.OfflineMonitor"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="com.adobe.flexbuilder.mxml.editor.AppearanceView"/>
+<show_view_action id="com.adobe.flexbuilder.mxml.editor.components.ComponentsView"/>
+<show_view_action id="com.adobe.flexbuilder.packageexplorer"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="com.adobe.flexbuilder.mxml.editor.inspector.view.PropertiesView"/>
+<show_view_action id="com.adobe.flexbuilder.mxml.editor.states.StatesViewer"/>
+<new_wizard_action id="com.adobe.flexbuilder.editorcore.ui.project.wizards.newproject"/>
+<new_wizard_action id="com.adobe.flexbuilder.project.ui.wizards.FlexLibraryProjectWizard"/>
+<new_wizard_action id="com.adobe.flashbuilder.project.multiplatform.ui.MultiPlatformProjectWizard"/>
+<new_wizard_action id="com.adobe.flexbuilder.project.ui.wizards.NewActionScriptProjectWizard"/>
+<new_wizard_action id="com.adobe.flashbuilder.project.multiplatform.ui.MultiPlatformActionScriptProjectWizard"/>
+<new_wizard_action id="com.adobe.flexbuilder.flashbridge.NewFlashProProjectWizard"/>
+<new_wizard_action id="com.adobe.flexbuilder.editorcore.ui.project.wizards.newflashcatalystproject"/>
+<new_wizard_action id="com.adobe.flexbuilder.mxml.editor.ui.wizards.NewMXMLApplication"/>
+<new_wizard_action id="com.adobe.flexbuilder.mxml.editor.ui.wizards.NewMXMLComponent"/>
+<new_wizard_action id="com.adobe.flexbuilder.mxml.editor.ui.wizards.NewMXMLItemRenderer"/>
+<new_wizard_action id="com.adobe.flexbuilder.mxml.editor.ui.wizards.NewMXMLModule"/>
+<new_wizard_action id="com.adobe.flexbuilder.mxml.editor.ui.wizards.NewMXMLSkin"/>
+<new_wizard_action id="com.adobe.flexbuilder.as.editor.wizards.NewActionScriptFile.flex"/>
+<new_wizard_action id="com.adobe.flexbuilder.as.editor.classWizard.flex"/>
+<new_wizard_action id="com.adobe.flexbuilder.as.editor.interfaceWizard.flex"/>
+<new_wizard_action id="com.adobe.flexbuilder.as.editor.skinnableComponentWizard.flex"/>
+<new_wizard_action id="com.adobe.flexbuilder.css.editor.wizards.NewCSSFile"/>
+<new_wizard_action id="com.adobe.flexbuilder.as.editor.flexUnitClassWizard.flex"/>
+<new_wizard_action id="com.adobe.flexbuilder.as.editor.flexUnitTestSuiteClassWizard.flex"/>
+<new_wizard_action id="com.adobe.flexbuilder.as.editor.packageWizard.flex"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<perspective_action id="com.adobe.flexbuilder.editors.mxml.ui.perspectives.development"/>
+<perspective_action id="com.adobe.flexbuilder.debug.ui.perspectives.debug"/>
+<perspective_action id="com.adobe.flash.profiler.ui.ProfilingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="com.adobe.flash.profiler.ui.Monitor"/>
+<view id="com.adobe.flash.profiler.ui.OfflineMonitor"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="ProfileTopLeft">&#x0A;<folder activePageID="com.adobe.flash.profiler.ui.Monitor" appearance="2" expanded="2">&#x0A;<page content="com.adobe.flash.profiler.ui.Monitor" label="Profile"/>
+<page content="com.adobe.flash.profiler.ui.OfflineMonitor" label="Saved Profiling Data"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.74959874" ratioLeft="934" ratioRight="312" relationship="2" relative="ProfileTopLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.24963716" ratioLeft="172" ratioRight="517" relationship="4" relative="ProfileTopLeft"/>
+<info folder="true" part="ProfileBottom" ratio="0.59961313" ratioLeft="310" ratioRight="207" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="com.adobe.flash.profiler.ui.LiveObjects:*" label="LabelNotFound"/>
+<page content="com.adobe.flash.profiler.ui.PerformanceProfile:*" label="LabelNotFound"/>
+<page content="com.adobe.flash.profiler.ui.MethodStats:*" label="LabelNotFound"/>
+<page content="com.adobe.flash.profiler.ui.ObjectStats:*" label="LabelNotFound"/>
+<page content="com.adobe.flash.profiler.ui.MemorySnapshot:*" label="LabelNotFound"/>
+<page content="com.adobe.flash.profiler.ui.LoiteringObjects:*" label="LabelNotFound"/>
+<page content="com.adobe.flash.profiler.ui.ObjectReferences:*" label="LabelNotFound"/>
+<page content="com.adobe.flash.profiler.ui.AllocationTrace:*" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="ProfileTopRight" ratio="0.5" ratioLeft="623" ratioRight="623" relationship="2" relative="ProfileTopLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="com.adobe.flash.profiler.ext.ui.MemoryUsageGraph:*" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
 </perspectives>
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/AlgomiTest/src/com/flexproject/model/FlexProjectPM.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/AlgomiTest/src/com/flexproject/views/MainView.mxml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/AlgomiTest/src/flexUnitTests/FlexProjectSearchNames.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/AlgomiTest/src/com/flexproject/interfaces/IFlexProjectPM.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.mxml.editor.MXMLCodeEditor" path="/AlgomiTest/src/com/flexproject/views/MainView.mxml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/FlexProject/src/xml/config.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/AlgomiTest/src/com/flexproject/model/CountriesDB.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/AlgomiTest/src/flexUnitTests/FlexProjectLoadNamesTester.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/AlgomiTest/src/flexUnitTests/FlexProjectTestSuite.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/AlgomiTest/src/flexUnitTests/FlexProjectStartFeedTester.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/AlgomiTest/src/FlexUnitCompilerApplication.mxml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/AlgomiTest/src/FlexUnitApplication.mxml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.mxml.editor.MXMLCodeEditor" path="/AlgomiTest/src/FlexUnitApplication.mxml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/AlgomiTest/src/AlgomiTest.mxml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/AlgomiTest/src/AlgomiTest.mxml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/AlgomiTest/src/xml/config.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/AlgomiTest/src/com/flexproject/model/FlexProjectPM.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/AlgomiTest/src/com/flexproject/views/MainView.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/Showcase/src/com/flexproject/views/MainView.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/components/MainChartPanel.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/model/FlexProjectPM.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/components/ButtonPopUP.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/Showcase/src/com/flexproject/skins/GroupButtonSkin.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/Showcase/src/com/flexproject/skins/ButtonSkin.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/Showcase/src/Showcase.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/components/MainButtonGroup.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/Showcase/src/com/flexproject/skins/ResizableTitleWindowSkin.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.mxml.editor.MXMLCodeEditor" path="/Showcase/src/com/flexproject/skins/GroupButtonSkin.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/events/FlexProjectPMEvents.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/mock/MockConsumer.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/components/MainButtonGroup.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/Showcase/src/com/flexproject/skins/ChartPanelSkin.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/Showcase/src/com/flexproject/skins/GroupButtonSkin.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/flexUnitTests/FlexProjectStartFeedTester.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/Showcase/src/com/flexproject/views/MainView.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" path="/Showcase/src/config.properties"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/components/ButtonBar.as"/>
 </editors>
-<item historyLabel="FlexProjectPM.as" index="0">
-<position info="not_deleted" x="3736" y="0"/>
+<item historyLabel="Showcase.mxml" index="6">
+<position info="not_deleted" x="1708" y="0"/>
 </item>
-<item historyLabel="FlexProjectPM.as" index="0">
-<position info="not_deleted" x="3803" y="0"/>
-</item>
-<item historyLabel="FlexProjectPM.as" index="0">
-<position info="not_deleted" x="3736" y="0"/>
-</item>
-<item historyLabel="FlexProjectPM.as" index="0">
-<position info="not_deleted" x="3803" y="0"/>
-</item>
-<item historyLabel="FlexProjectPM.as" index="0">
-<position info="not_deleted" x="3736" y="0"/>
-</item>
-<item historyLabel="FlexProjectPM.as" index="0">
-<position info="not_deleted" x="3896" y="0"/>
-</item>
-<item historyLabel="MainView.mxml" index="1">
-<position info="not_deleted" x="2310" y="0"/>
-</item>
-<item historyLabel="FlexProjectSearchNames.as" index="2">
-<position info="not_deleted" x="1549" y="0"/>
-</item>
-<item historyLabel="MainView.mxml" index="1">
-<position info="not_deleted" x="2310" y="0"/>
-</item>
-<item historyLabel="MainView.mxml" index="4">
-<position info="not_deleted" x="3075" y="0"/>
-</item>
-<item historyLabel="FlexProjectPM.as" index="0">
-<position info="not_deleted" x="2945" y="6"/>
-</item>
-<item historyLabel="MainView.mxml" index="1">
-<position info="not_deleted" x="1065" y="0"/>
-</item>
-<item historyLabel="FlexProjectPM.as" index="0">
-<position info="not_deleted" x="2945" y="6"/>
-</item>
-<item historyLabel="FlexProjectPM.as" index="0">
-<position info="not_deleted" x="4073" y="0"/>
-</item>
-<item historyLabel="FlexProjectPM.as" index="0">
-<position info="not_deleted" x="4152" y="0"/>
-</item>
-<item historyLabel="FlexProjectPM.as" index="0">
-<position info="not_deleted" x="2642" y="0"/>
-</item>
-<item historyLabel="MainView.mxml" index="1">
-<position info="not_deleted" x="1754" y="0"/>
-</item>
-<item historyLabel="FlexProjectPM.as" index="0">
-<position info="not_deleted" x="2905" y="0"/>
-</item>
-<item historyLabel="config.xml" index="5"/>
-<item historyLabel="FlexProjectPM.as" index="0">
-<position info="not_deleted" x="2905" y="0"/>
-</item>
-<item historyLabel="CountriesDB.as" index="6">
+<item historyLabel="MainView.mxml" index="0">
 <position/>
 </item>
-<item historyLabel="MainView.mxml" index="1">
-<position info="not_deleted" x="2724" y="0"/>
+<item historyLabel="Showcase.mxml" index="6">
+<position info="not_deleted" x="1623" y="0"/>
 </item>
-<item historyLabel="CountriesDB.as" index="6">
+<item historyLabel="MainView.mxml" index="0">
 <position/>
 </item>
-<item historyLabel="MainView.mxml" index="1">
-<position info="not_deleted" x="2724" y="0"/>
+<item historyLabel="Showcase.mxml" index="6">
+<position info="not_deleted" x="1708" y="0"/>
 </item>
-<item historyLabel="FlexProjectPM.as" index="0">
-<position info="not_deleted" x="2797" y="0"/>
-</item>
-<item historyLabel="IFlexProjectPM.as" index="3">
-<position info="not_deleted" x="288" y="8"/>
-</item>
-<item historyLabel="FlexProjectPM.as" index="0">
-<position info="not_deleted" x="2797" y="0"/>
-</item>
-<item historyLabel="IFlexProjectPM.as" index="3">
-<position info="not_deleted" x="288" y="8"/>
-</item>
-<item historyLabel="MainView.mxml" index="1">
-<position info="not_deleted" x="1824" y="0"/>
-</item>
-<item historyLabel="CountriesDB.as" index="6">
-<position info="not_deleted" x="3531" y="0"/>
-</item>
-<item historyLabel="MainView.mxml" index="1">
-<position info="not_deleted" x="1824" y="0"/>
-</item>
-<item historyLabel="FlexProjectSearchNames.as" index="2">
-<position info="not_deleted" x="1549" y="0"/>
-</item>
-<item historyLabel="FlexProjectLoadNamesTester.as" index="7">
-<position info="not_deleted" x="1679" y="0"/>
-</item>
-<item historyLabel="FlexProjectTestSuite.as" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="FlexProjectSearchNames.as" index="2">
+<item historyLabel="MainView.mxml" index="0">
 <position/>
 </item>
-<item historyLabel="FlexProjectTestSuite.as" index="8">
+<item historyLabel="MainButtonGroup.as" index="7">
+<position info="not_deleted" x="292" y="15"/>
+</item>
+<item historyLabel="ResizableTitleWindowSkin.mxml" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ButtonSkin.mxml" index="5">
+<position info="not_deleted" x="304" y="0"/>
+</item>
+<item historyLabel="GroupButtonSkin.mxml" index="4">
+<position info="not_deleted" x="535" y="0"/>
+</item>
+<item historyLabel="GroupButtonSkin.mxml" index="9">
+<position info="not_deleted" x="367" y="0"/>
+</item>
+<item historyLabel="GroupButtonSkin.mxml" index="9">
+<position info="not_deleted" x="566" y="0"/>
+</item>
+<item historyLabel="MainChartPanel.as" index="1">
+<position info="not_deleted" x="2172" y="1772"/>
+</item>
+<item historyLabel="ButtonPopUP.as" index="3">
+<position info="not_deleted" x="731" y="0"/>
+</item>
+<item historyLabel="ResizableTitleWindowSkin.mxml" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ButtonSkin.mxml" index="5">
+<position info="not_deleted" x="304" y="0"/>
+</item>
+<item historyLabel="GroupButtonSkin.mxml" index="4">
+<position info="not_deleted" x="566" y="0"/>
+</item>
+<item historyLabel="GroupButtonSkin.mxml" index="9">
+<position info="not_deleted" x="301" y="0"/>
+</item>
+<item historyLabel="MainButtonGroup.as" index="7">
+<position info="not_deleted" x="1838" y="11"/>
+</item>
+<item historyLabel="MainView.mxml" index="0">
+<position info="not_deleted" x="5854" y="0"/>
+</item>
+<item historyLabel="FlexProjectPMEvents.as" index="10">
+<position info="not_deleted" x="131" y="19"/>
+</item>
+<item historyLabel="MainView.mxml" index="0">
 <position/>
 </item>
-<item historyLabel="FlexProjectLoadNamesTester.as" index="7">
-<position info="not_deleted" x="1679" y="0"/>
+<item historyLabel="FlexProjectPM.as" index="2">
+<position info="not_deleted" x="4455" y="0"/>
 </item>
-<item historyLabel="FlexProjectStartFeedTester.as" index="9">
-<position info="not_deleted" x="1679" y="0"/>
+<item historyLabel="MockConsumer.as" index="11">
+<position info="not_deleted" x="1505" y="0"/>
 </item>
-<item historyLabel="FlexUnitCompilerApplication.mxml" index="10">
-<position info="not_deleted" x="739" y="0"/>
+<item historyLabel="MainButtonGroup.as" index="7">
+<position info="not_deleted" x="1838" y="11"/>
 </item>
-<item historyLabel="FlexUnitApplication.mxml" index="11">
+<item historyLabel="FlexProjectPM.as" index="2">
+<position info="not_deleted" x="4455" y="0"/>
+</item>
+<item historyLabel="MainButtonGroup.as" index="7">
+<position info="not_deleted" x="1838" y="11"/>
+</item>
+<item historyLabel="MockConsumer.as" index="11">
+<position info="not_deleted" x="1505" y="0"/>
+</item>
+<item historyLabel="FlexProjectPM.as" index="2">
+<position info="not_deleted" x="4455" y="0"/>
+</item>
+<item historyLabel="MainButtonGroup.as" index="7">
+<position info="not_deleted" x="1838" y="11"/>
+</item>
+<item historyLabel="MockConsumer.as" index="11">
+<position info="not_deleted" x="1505" y="0"/>
+</item>
+<item historyLabel="GroupButtonSkin.mxml" index="4">
+<position info="not_deleted" x="629" y="0"/>
+</item>
+<item historyLabel="MainView.mxml" index="0">
+<position info="not_deleted" x="5878" y="0"/>
+</item>
+<item historyLabel="MainButtonGroup.as" index="7">
+<position info="not_deleted" x="1838" y="11"/>
+</item>
+<item historyLabel="FlexProjectPM.as" index="2">
+<position info="not_deleted" x="4455" y="0"/>
+</item>
+<item historyLabel="GroupButtonSkin.mxml" index="4">
+<position info="not_deleted" x="629" y="0"/>
+</item>
+<item historyLabel="MockConsumer.as" index="11">
+<position info="not_deleted" x="1501" y="0"/>
+</item>
+<item historyLabel="GroupButtonSkin.mxml" index="4">
+<position info="not_deleted" x="830" y="123"/>
+</item>
+<item historyLabel="MainView.mxml" index="0">
+<position info="not_deleted" x="5855" y="0"/>
+</item>
+<item historyLabel="MainButtonGroup.as" index="12">
+<position info="not_deleted" x="292" y="15"/>
+</item>
+<item historyLabel="ChartPanelSkin.mxml" index="13">
+<position info="not_deleted" x="619" y="0"/>
+</item>
+<item historyLabel="ButtonSkin.mxml" index="5">
+<position info="not_deleted" x="304" y="0"/>
+</item>
+<item historyLabel="GroupButtonSkin.mxml" index="14">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="FlexUnitApplication.mxml" index="12">
-<position/>
+<item historyLabel="FlexProjectStartFeedTester.as" index="15">
+<position info="not_deleted" x="1203" y="10"/>
 </item>
-<item historyLabel="FlexProjectPM.as" index="0">
-<position info="not_deleted" x="4091" y="0"/>
-</item>
-<item historyLabel="FlexProjectStartFeedTester.as" index="9">
-<position info="not_deleted" x="1371" y="0"/>
-</item>
-<item historyLabel="AlgomiTest.mxml" index="13">
+<item historyLabel="GroupButtonSkin.mxml" index="14">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="FlexUnitApplication.mxml" index="11">
-<position info="not_deleted" x="39" y="270"/>
-</item>
-<item historyLabel="AlgomiTest.mxml" index="14">
+<item historyLabel="MainView.mxml" index="16">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="config.xml" index="15"/>
-<item historyLabel="FlexProjectPM.as" index="16">
-<position info="not_deleted" x="4091" y="0"/>
-</item>
-<item active="true" historyLabel="MainView.mxml" index="17">
+<item historyLabel="config.properties" index="17">
 <position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MainView.mxml" index="16">
+<position info="not_deleted" x="5912" y="0"/>
+</item>
+<item historyLabel="ButtonSkin.mxml" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="ButtonBar.as" index="18">
+<position info="not_deleted" x="844" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -743,47 +849,47 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="config.xml" tooltip="AlgomiTest/src/xml/config.xml">
-<persistable path="/AlgomiTest/src/xml/config.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="config.properties" tooltip="Showcase/src/config.properties">
+<persistable path="/Showcase/src/config.properties"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FlexProjectTestSuite.as" tooltip="AlgomiTest/src/flexUnitTests/FlexProjectTestSuite.as">
-<persistable path="/AlgomiTest/src/flexUnitTests/FlexProjectTestSuite.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FlexProjectStartFeedTester.as" tooltip="Showcase/src/flexUnitTests/FlexProjectStartFeedTester.as">
+<persistable path="/Showcase/src/flexUnitTests/FlexProjectStartFeedTester.as"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="CountriesDB.as" tooltip="AlgomiTest/src/com/flexproject/model/CountriesDB.as">
-<persistable path="/AlgomiTest/src/com/flexproject/model/CountriesDB.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="MainButtonGroup.as" tooltip="Showcase/src/com/flexproject/components/MainButtonGroup.as">
+<persistable path="/Showcase/src/com/flexproject/components/MainButtonGroup.as"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="config.properties" tooltip="AlgomiTest/src/config.properties">
-<persistable path="/AlgomiTest/src/config.properties"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FlexProjectPMEvents.as" tooltip="Showcase/src/com/flexproject/events/FlexProjectPMEvents.as">
+<persistable path="/Showcase/src/com/flexproject/events/FlexProjectPMEvents.as"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FlexProjectPMEvents.as" tooltip="AlgomiTest/src/com/flexproject/events/FlexProjectPMEvents.as">
-<persistable path="/AlgomiTest/src/com/flexproject/events/FlexProjectPMEvents.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ResizableTitleWindowSkin.mxml" tooltip="Showcase/src/com/flexproject/skins/ResizableTitleWindowSkin.mxml">
+<persistable path="/Showcase/src/com/flexproject/skins/ResizableTitleWindowSkin.mxml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.css.editors.CSSEditor" name="styles.css" tooltip="AlgomiTest/src/styles.css">
-<persistable path="/AlgomiTest/src/styles.css"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="Showcase.mxml" tooltip="Showcase/src/Showcase.mxml">
+<persistable path="/Showcase/src/Showcase.mxml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FlexProjectSearchNames.as" tooltip="AlgomiTest/src/flexUnitTests/FlexProjectSearchNames.as">
-<persistable path="/AlgomiTest/src/flexUnitTests/FlexProjectSearchNames.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="CountriesDB.as" tooltip="Showcase/src/com/flexproject/model/CountriesDB.as">
+<persistable path="/Showcase/src/com/flexproject/model/CountriesDB.as"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="MainView.mxml" tooltip="AlgomiTest/src/com/flexproject/views/MainView.mxml">
-<persistable path="/AlgomiTest/src/com/flexproject/views/MainView.mxml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.css.editors.CSSEditor" name="styles.css" tooltip="Showcase/src/styles.css">
+<persistable path="/Showcase/src/styles.css"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="IFlexProjectPM.as" tooltip="AlgomiTest/src/com/flexproject/interfaces/IFlexProjectPM.as">
-<persistable path="/AlgomiTest/src/com/flexproject/interfaces/IFlexProjectPM.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="IFlexProjectPM.as" tooltip="Showcase/src/com/flexproject/interfaces/IFlexProjectPM.as">
+<persistable path="/Showcase/src/com/flexproject/interfaces/IFlexProjectPM.as"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="IFlexProjectService.as" tooltip="AlgomiTest/src/com/flexproject/services/interfaces/IFlexProjectService.as">
-<persistable path="/AlgomiTest/src/com/flexproject/services/interfaces/IFlexProjectService.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="CountryVO.as" tooltip="Showcase/src/com/flexproject/vo/CountryVO.as">
+<persistable path="/Showcase/src/com/flexproject/vo/CountryVO.as"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FlexProjectService.as" tooltip="AlgomiTest/src/com/flexproject/services/FlexProjectService.as">
-<persistable path="/AlgomiTest/src/com/flexproject/services/FlexProjectService.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FlexProjectPM.as" tooltip="Showcase/src/com/flexproject/model/FlexProjectPM.as">
+<persistable path="/Showcase/src/com/flexproject/model/FlexProjectPM.as"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FlexProjectPM.as" tooltip="AlgomiTest/src/com/flexproject/model/FlexProjectPM.as">
-<persistable path="/AlgomiTest/src/com/flexproject/model/FlexProjectPM.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ButtonPopUP.as" tooltip="Showcase/src/com/flexproject/components/ButtonPopUP.as">
+<persistable path="/Showcase/src/com/flexproject/components/ButtonPopUP.as"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="FlexUnitCompilerApplication.mxml" tooltip="AlgomiTest/src/FlexUnitCompilerApplication.mxml">
-<persistable path="/AlgomiTest/src/FlexUnitCompilerApplication.mxml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ChartPanelSkin.mxml" tooltip="Showcase/src/com/flexproject/skins/ChartPanelSkin.mxml">
+<persistable path="/Showcase/src/com/flexproject/skins/ChartPanelSkin.mxml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FlexProjectLoadNamesTester.as" tooltip="AlgomiTest/src/flexUnitTests/FlexProjectLoadNamesTester.as">
-<persistable path="/AlgomiTest/src/flexUnitTests/FlexProjectLoadNamesTester.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ButtonSkin.mxml" tooltip="Showcase/src/com/flexproject/skins/ButtonSkin.mxml">
+<persistable path="/Showcase/src/com/flexproject/skins/ButtonSkin.mxml"/>
 </file>
 </mruList>
 </workbench>

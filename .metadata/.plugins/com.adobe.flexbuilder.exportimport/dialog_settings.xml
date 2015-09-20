@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="exportDialogY" value="88"/>
-	<item key="exportDialogX" value="378"/>
-	<item key="fxpExportValidate" value="true"/>
-	<item key="fxpExportProjectName" value="FlexProject"/>
-	<item key="fxpExportLocation" value="/Users/Pedro/Documents"/>
-	<item key="exportDialogHeight" value="550"/>
-	<item key="exportDialogWidth" value="525"/>
+	<item value="Showcase" key="fxpExportProjectName"/>
+	<item value="525" key="exportDialogWidth"/>
+	<item value="551" key="importDialogHeight"/>
+	<item value="567" key="importDialogWidth"/>
+	<item value="/Users/Pedro/Desktop" key="fxpExportLocation"/>
+	<item value="98" key="exportDialogY"/>
+	<item value="378" key="exportDialogX"/>
+	<item value="550" key="exportDialogHeight"/>
+	<item value="133" key="importDialogY"/>
+	<item value="true" key="fxpExportValidate"/>
+	<item value="378" key="importDialogX"/>
 </section>
