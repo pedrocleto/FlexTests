@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Skin xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		xmlns:s="library://ns.adobe.com/flex/spark" 
+		xmlns:mx="library://ns.adobe.com/flex/mx">
+	<!-- host component -->
+	<fx:Metadata>
+		[HostComponent("com.flexproject.components.MainButtonGroup")]
+	</fx:Metadata>
+	<s:HGroup width="100%">
+		<s:VGroup width="100%" horizontalAlign="center" verticalAlign="middle">
+			<s:HGroup width="100%">
+				<s:Button label="Start" id="startbtn" toolTip="Click to start feed" styleName="pushButton"/>
+				<s:Button label="Stop" id="stopbtn"  styleName="pushButton"/>
+			</s:HGroup>
+			<s:HGroup width="100%">
+				<s:Label styleName="myLabel" id="startStop" text="Stopped"/>
+				<s:Label styleName="myLabel" id="timerLbl" />
+			</s:HGroup>
+		</s:VGroup>
+
+		<s:VGroup width="100%" horizontalAlign="right">
+			<s:Label styleName="myLabel" id="startTime" minWidth="120"/>
+			<s:Label styleName="myLabel" id="stopTime" minWidth="120"/>
+		</s:VGroup>
+	</s:HGroup>
+	
+</s:Skin>

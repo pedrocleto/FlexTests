@@ -1,0 +1,35 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+
+
+s|Panel
+{
+	chromeColor: #41648D;
+	color: #FFFFFF;
+}
+s|DataGrid
+{
+	color: #000000;
+	
+}
+
+s|Label.labelNext
+{
+	color: #7e2728;
+	fontSize: 30;
+	fontWeight: bold;
+}
+s|TextInput.myInput
+{
+	color: #000000;
+}
+s|Label.myLabel
+{
+	color: #000000;
+}
+s|Button.pushButton
+{
+	color: #FFFFFF;
+}
+	

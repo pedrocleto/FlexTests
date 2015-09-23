@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Skin xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		xmlns:s="library://ns.adobe.com/flex/spark" 
+		xmlns:mx="library://ns.adobe.com/flex/mx">
+	<!-- host component -->
+	<fx:Metadata>
+		[HostComponent("com.flexproject.components.MainDatagridPanel")]
+	</fx:Metadata>
+	<s:DataGrid width="100%" height="100%" id="mainGridDash" >
+		<s:columns>
+			<s:ArrayList>
+				<s:GridColumn dataField="name" headerText="Country Name"/>
+				<s:GridColumn dataField="hits" headerText="Hits"/>
+			</s:ArrayList>	
+		</s:columns>
+	</s:DataGrid>	
+</s:Skin>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:s="library://ns.adobe.com/flex/spark" 
+			   xmlns:mx="library://ns.adobe.com/flex/mx" 
+			   minWidth="955" minHeight="600" 
+			   xmlns:parsley="http://www.spicefactory.org/parsley" 
+			   xmlns:views="com.flexproject.views.*" >
+	<fx:Style source="styles.css"/>
+	
+	<fx:Script>
+		<![CDATA[
+			import com.flexproject.components.ButtonPopUP;
+			import com.flexproject.components.MainChartPanel;
+			import com.flexproject.components.ButtonBar;
+			import com.flexproject.components.ResizableTitleWindow;
+			import com.flexproject.components.MainDatagridPanel;
+			import com.flexproject.components.MainButtonGroup;
+			import com.flexproject.model.FlexProjectPM;
+			
+			private var com_flexproject_components_Button_obj:com.flexproject.components.MainButtonGroup;
+			
+			private var com_flexproject_components_MainDatagridPanel_obj:com.flexproject.components.MainDatagridPanel;
+			
+			private var com_flexproject_components_ResizableTitleWindow_obj:com.flexproject.components.ResizableTitleWindow;
+			
+			private var com_flexproject_components_ButtonBar_obj:com.flexproject.components.ButtonBar;
+			
+			private var com_flexproject_components_MainChartPanl_obj:com.flexproject.components.MainChartPanel;
+			
+			private var com_flexproject_components_ButtonPopUP_obj:com.flexproject.components.ButtonPopUP;
+			FlexProjectPM;
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<parsley:ContextBuilder>
+			<parsley:XmlConfig file="xml/config.xml"/>
+		</parsley:ContextBuilder>
+		<parsley:Configure/>		 
+	</fx:Declarations>
+	<s:layout>
+		<s:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+	</s:layout>
+	<views:MainView/>
+</s:Application>

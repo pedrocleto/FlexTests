@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Panel xmlns:fx="http://ns.adobe.com/mxml/2009"
+		 xmlns:s="library://ns.adobe.com/flex/spark"
+		 xmlns:mx="library://ns.adobe.com/flex/mx"
+		 xmlns:parsley="http://www.spicefactory.org/parsley"
+		 width="100%" height="100%" enabled="true" title="Showcase"
+		 xmlns:components="com.flexproject.components.*"
+		 creationComplete="creationComplete(event)">
+	<fx:Script>
+		<![CDATA[
+			import com.flexproject.components.MainDatagridPanel;
+			import com.flexproject.components.ResizableTitleWindow;
+			import com.flexproject.events.FlexProjectPMEvents;
+			import com.flexproject.interfaces.IFlexProjectPM;
+			import com.flexproject.model.FlexProjectPM;
+			import com.flexproject.vo.Constants;
+			
+			import mx.charts.CategoryAxis;
+			import mx.charts.series.BarSeries;
+			import mx.charts.series.ColumnSeries;
+			import mx.charts.series.LineSeries;
+			import mx.charts.series.PieSeries;
+			import mx.controls.Alert;
+			import mx.core.IFlexDisplayObject;
+			import mx.events.CloseEvent;
+			import mx.events.FlexEvent;
+			import mx.managers.PopUpManager;
+			
+			import org.spicefactory.parsley.core.context.Context;
+			
+			import spark.components.TitleWindow;
+			
+			[Inject]
+			public var context:Context;
+			
+			[Inject (id="projectPM")]
+			[Bindable]
+			public var projectPM:IFlexProjectPM;
+			
+			public var timer:Timer;
+
+			private const TIMER_INTERVAL:int = 50;
+			private var timerAtStart:int = 0;	
+			
+			private var firstTime:String = "";	
+			private var lastTime:String = "";
+			
+			[Bindable]
+			private var buttonValues:Array = [Constants.DATAGRID,Constants.CHARTS];
+			
+			private function updateTimer( evt:TimerEvent ):void
+			{
+				var d:Date = new Date( getTimer() - timerAtStart );
+				mainGroup.updateDate(d);
+			}		
+			
+			[Init]
+			public function init() : void 
+			{
+				projectPM.init(); //init arrayCollections
+				
+				timer = new Timer(TIMER_INTERVAL);
+				timer.addEventListener( TimerEvent.TIMER, updateTimer );
+			}
+			
+			[MessageHandler(selector="UpdateListEvent")]//To show the use of parsley events
+			public function updateHandler(event:FlexProjectPMEvents):void
+			{
+				var timestamp:String=event.data.toString();
+				if(firstTime=="")
+				{
+					firstTime=timestamp;
+					lastTime=timestamp;
+				}
+				else
+					lastTime=timestamp;
+				
+				mainGroup.updateTimes(firstTime,lastTime);
+			}
+			
+			[MessageHandler(selector="ErrorListEvent")]
+			public function errorHandler(event:FlexProjectPMEvents):void
+			{
+				Alert.show(event.data.faultString); //To show the use of parsley events
+			}
+			
+			protected function startFeed_clickHandler(event:Event):void
+			{
+				firstTime="";
+				lastTime="";
+				mainGroup.updateTimes(firstTime,lastTime);
+				projectPM.startFeed(); // start feed after button clicking
+				mainGroup.startStop.text="Started: ";
+				timerAtStart = getTimer();
+				timer.start()
+			}
+			
+			protected function stopFeed_clickHandler(event:Event):void
+			{
+				projectPM.stopFeed(); // stop feed after button clicking
+				mainGroup.startStop.text="Stoped: ";
+				timer.stop();		
+			}
+
+			protected function creationComplete(event:FlexEvent):void
+			{
+				// TODO Auto-generated method stub
+				
+				mainGroup.addEventListener(Constants.START,startFeed_clickHandler,false,0,true);
+				mainGroup.addEventListener(Constants.STOP,stopFeed_clickHandler,false,0,true);
+				updateBarCharts();
+				updateColumnCharts();
+				updateLineCharts();
+				updatePieChart();			
+			}
+			
+			
+			private function updateBarCharts():void
+			{
+				var currentSeries:Array =[];
+				var localSeries:BarSeries = new BarSeries();
+				
+				localSeries.yField = "name";
+				localSeries.xField = "hits";
+				
+				localSeries.displayName = "Hits By Country";
+				
+				currentSeries.push(localSeries);
+				
+				var catAxis:CategoryAxis = new CategoryAxis();
+				catAxis.categoryField ="name";
+				
+				barChart.verticalAxis = catAxis;
+				barChart.series = currentSeries;		
+			}
+			
+			private function updateColumnCharts():void
+			{
+				var currentSeries:Array =[];
+				var localSeries:ColumnSeries = new ColumnSeries();
+				localSeries.yField = "hits";
+				localSeries.xField = "name";
+				
+				localSeries.displayName = "Hits By Country";
+				currentSeries.push(localSeries);
+				
+				var catAxis:CategoryAxis = new CategoryAxis();
+				catAxis.categoryField ="name";
+				
+				columnChart.horizontalAxis = catAxis;
+				columnChart.series = currentSeries;			
+			}
+			
+			private function updateLineCharts():void
+			{
+				var currentSeries:Array =[];
+				var localSeries:LineSeries = new LineSeries();
+				localSeries.yField = "hits";
+				localSeries.xField = "name";
+				
+				localSeries.displayName = "Hits By Country";
+				currentSeries.push(localSeries);
+				
+				var catAxis:CategoryAxis = new CategoryAxis();
+				catAxis.categoryField ="name";
+				
+				lineChart.horizontalAxis = catAxis;			
+				lineChart.series = currentSeries;
+			}
+			
+			private function updatePieChart():void
+			{
+				var currentSeries:Array =[];
+				var localSeries:PieSeries = new PieSeries();
+				localSeries.field = "hits";
+				localSeries.nameField = "name";
+				localSeries.explodeRadius = .12;
+				
+				localSeries.displayName = "Hits By Country";
+				currentSeries.push(localSeries);
+				
+				pieChart.series = currentSeries;
+			}
+			
+		]]>
+	</fx:Script>
+	
+	<fx:Declarations>
+		<parsley:Configure/>
+	</fx:Declarations>
+	
+	<s:layout>
+		<s:HorizontalLayout horizontalAlign="center" verticalAlign="top">
+		</s:HorizontalLayout>
+	</s:layout>
+	
+	<s:VGroup width="100%" height="100%" verticalAlign="top" horizontalAlign="center" paddingBottom="16" paddingTop="16" paddingLeft="16" paddingRight="16">
+		<components:MainButtonGroup id="mainGroup" width="100%"/>
+		<components:ButtonPopUP buttonValues="{buttonValues}" providerValue="{projectPM.filteredList}" chartsProvider="{projectPM.filteredList}"/>
+		<s:ToggleButton id="showDashboard" label="{showDashboard.selected?'Hide Dashboard':'Show Dashboard'}"/>
+		<s:Scroller width="100%" height="100%" visible="{showDashboard.selected}" includeInLayout="{showDashboard.selected}">
+			<s:Group>
+				<s:layout>
+					<s:TileLayout horizontalAlign="center" verticalAlign="top" useVirtualLayout="true"/>
+				</s:layout>
+					<components:MainDatagridPanel width="100%" height="100%" provider="{projectPM.filteredList}"/>
+					<mx:BarChart id="barChart" width="100%" height="100%" showDataTips="true" color="#000000" dataProvider="{projectPM.filteredList}"/>
+					<mx:ColumnChart id="columnChart" width="100%" height="100%" showDataTips="true" color="#000000" dataProvider="{projectPM.filteredList}"/>
+					<mx:LineChart id="lineChart" width="100%" height="100%"  showDataTips="true" color="#000000" dataProvider="{projectPM.filteredList}"/>
+					<mx:PieChart id="pieChart" width="100%" height="100%"  showDataTips="true" color="#000000" dataProvider="{projectPM.filteredList}"/>
+			</s:Group>
+		</s:Scroller>
+	</s:VGroup>
+</s:Panel>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Skin xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		xmlns:s="library://ns.adobe.com/flex/spark" 
+		xmlns:mx="library://ns.adobe.com/flex/mx" xmlns:components="com.flexproject.components.*">
+	<!-- host component -->
+	<fx:Metadata>
+		[HostComponent("com.flexproject.components.MainChartPanel")]
+	</fx:Metadata>
+
+	<fx:Script>
+		<![CDATA[
+			import com.flexproject.vo.Constants;
+		]]>
+	</fx:Script>
+	<s:VGroup width="100%" height="100%">
+		<s:ButtonBar dataProvider="{navViewCharts}" width="100%"/>
+		<mx:ViewStack id="navViewCharts" width="100%" height="100%">
+			<s:NavigatorContent label="{Constants.BAR}" width="100%" height="100%">
+				<mx:BarChart id="barChart" width="100%" height="100%" showDataTips="true" color="#000000"/>
+			</s:NavigatorContent>
+			<s:NavigatorContent label="{Constants.COLUMN}" width="100%" height="100%">
+				<mx:ColumnChart id="columnChart" width="100%" height="100%" showDataTips="true" color="#000000"/>
+			</s:NavigatorContent>
+			<s:NavigatorContent label="{Constants.LINE}" width="100%" height="100%">
+				<mx:LineChart id="lineChart" width="100%" height="100%"  showDataTips="true" color="#000000"/>
+			</s:NavigatorContent>
+			<s:NavigatorContent label="{Constants.PIE}" width="100%" height="100%">
+				<mx:PieChart id="pieChart" width="100%" height="100%"  showDataTips="true" color="#000000"/>
+			</s:NavigatorContent>
+		</mx:ViewStack>
+	</s:VGroup>
+</s:Skin>
