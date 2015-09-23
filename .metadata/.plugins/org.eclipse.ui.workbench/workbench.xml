@@ -57,13 +57,15 @@
 <part id="20"/>
 <part id="21"/>
 <part id="22"/>
+<part id="23"/>
+<part id="24"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor activePart="true" focus="true" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ButtonBar.as" partName="ButtonBar.as" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/components/ButtonBar.as" title="ButtonBar.as" tooltip="Showcase/src/com/flexproject/components/ButtonBar.as" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/components/ButtonBar.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="407" selectionTopPixel="1636"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1486" selectionTopPixel="649"/>
 </editor>
 <editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="GroupButtonSkin.mxml" partName="GroupButtonSkin.mxml" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/skins/GroupButtonSkin.mxml" title="GroupButtonSkin.mxml" tooltip="Showcase/src/com/flexproject/skins/GroupButtonSkin.mxml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/skins/GroupButtonSkin.mxml"/>
@@ -86,7 +88,7 @@
 </editor>
 <editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="MainDatagridPanel.as" partName="MainDatagridPanel.as" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/components/MainDatagridPanel.as" title="MainDatagridPanel.as" tooltip="Showcase/src/com/flexproject/components/MainDatagridPanel.as" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/components/MainDatagridPanel.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="105" selectionOffset="796" selectionTopPixel="301"/>
+<editorState selectionHorizontalPixel="0" selectionLength="105" selectionOffset="796" selectionTopPixel="315"/>
 </editor>
 <editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="Constants.as" partName="Constants.as" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/vo/Constants.as" title="Constants.as" tooltip="Showcase/src/com/flexproject/vo/Constants.as" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/vo/Constants.as"/>
@@ -104,15 +106,15 @@
 </editor>
 <editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ButtonPopUP.as" partName="ButtonPopUP.as" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/components/ButtonPopUP.as" title="ButtonPopUP.as" tooltip="Showcase/src/com/flexproject/components/ButtonPopUP.as" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/components/ButtonPopUP.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="731" selectionTopPixel="240"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="731" selectionTopPixel="1223"/>
 </editor>
 <editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="MockConsumer.as" partName="MockConsumer.as" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/mock/MockConsumer.as" title="MockConsumer.as" tooltip="Showcase/src/com/flexproject/mock/MockConsumer.as" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/mock/MockConsumer.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1501" selectionTopPixel="540"/>
+<editorState selectionHorizontalPixel="0" selectionLength="20" selectionOffset="1602" selectionTopPixel="691"/>
 </editor>
 <editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FlexProjectPM.as" partName="FlexProjectPM.as" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/model/FlexProjectPM.as" title="FlexProjectPM.as" tooltip="Showcase/src/com/flexproject/model/FlexProjectPM.as" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/model/FlexProjectPM.as"/>
-<editorState selectionHorizontalPixel="8" selectionLength="0" selectionOffset="4455" selectionTopPixel="1244"/>
+<editorState selectionHorizontalPixel="0" selectionLength="19" selectionOffset="2762" selectionTopPixel="1209"/>
 </editor>
 <editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="CountryVO.as" partName="CountryVO.as" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/vo/CountryVO.as" title="CountryVO.as" tooltip="Showcase/src/com/flexproject/vo/CountryVO.as" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/vo/CountryVO.as"/>
@@ -127,7 +129,7 @@
 </editor>
 <editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="CountriesDB.as" partName="CountriesDB.as" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/model/CountriesDB.as" title="CountriesDB.as" tooltip="Showcase/src/com/flexproject/model/CountriesDB.as" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/model/CountriesDB.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7026" selectionTopPixel="1897"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7026" selectionTopPixel="3542"/>
 </editor>
 <editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="Showcase.mxml" partName="Showcase.mxml" path="/Users/Pedro/Documents/Test/Showcase/src/Showcase.mxml" title="Showcase.mxml" tooltip="Showcase/src/Showcase.mxml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/Showcase.mxml"/>
@@ -141,7 +143,15 @@
 </editor>
 <editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="MainButtonGroup.as" partName="MainButtonGroup.as" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/components/MainButtonGroup.as" title="MainButtonGroup.as" tooltip="Showcase/src/com/flexproject/components/MainButtonGroup.as" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/components/MainButtonGroup.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="15" selectionOffset="292" selectionTopPixel="63"/>
+<editorState selectionHorizontalPixel="0" selectionLength="15" selectionOffset="292" selectionTopPixel="1082"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="MockMessage.as" partName="MockMessage.as" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/mock/MockMessage.as" title="MockMessage.as" tooltip="Showcase/src/com/flexproject/mock/MockMessage.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/mock/MockMessage.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1142"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ResizableTitleWindow.as" partName="ResizableTitleWindow.as" path="/Users/Pedro/Documents/Test/Showcase/src/com/flexproject/components/ResizableTitleWindow.as" title="ResizableTitleWindow.as" tooltip="Showcase/src/com/flexproject/components/ResizableTitleWindow.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Showcase/src/com/flexproject/components/ResizableTitleWindow.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="36" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -166,23 +176,10 @@
 <viewState LINK_NAVIGATOR_TO_EDITOR="0" fpeIsFlat="0" fpeSortBy="1" sorter="1">
 <fpeExpanded>
 <fpeElement fpePath="/Showcase"/>
-<fpeElement fpePath="/Showcase/src"/>
-<fpeElement fpePath="/Showcase/src/%typeDefaultPackage"/>
-<fpeElement fpePath="/Showcase/src/assets"/>
-<fpeElement fpePath="/Showcase/src/com/flexproject"/>
-<fpeElement fpePath="/Showcase/src/com/flexproject/components"/>
-<fpeElement fpePath="/Showcase/src/com/flexproject/interfaces"/>
-<fpeElement fpePath="/Showcase/src/com/flexproject/mock"/>
-<fpeElement fpePath="/Showcase/src/com/flexproject/model"/>
-<fpeElement fpePath="/Showcase/src/com/flexproject/skins"/>
-<fpeElement fpePath="/Showcase/src/com/flexproject/utils"/>
-<fpeElement fpePath="/Showcase/src/com/flexproject/views"/>
-<fpeElement fpePath="/Showcase/src/com/flexproject/vo"/>
-<fpeElement fpePath="/Showcase/src/flexUnitTests"/>
-<fpeElement fpePath="/Showcase/src/xml"/>
+<fpeElement fpePath="/Showcase/html-template"/>
 </fpeExpanded>
 <fpeSelection>
-<fpeElement fpePath="/Showcase/src/com/flexproject/components/ButtonBar.as"/>
+<fpeElement fpePath="/Showcase"/>
 </fpeSelection>
 <filters>
 <filter element="*.class" isEnabled="false"/>
@@ -206,9 +203,10 @@
 </filters>
 <expanded>
 <element path="/Showcase"/>
+<element path="/Showcase/html-template"/>
 </expanded>
 <selection>
-<element path="/Showcase/src/com/flexproject/components/ButtonBar.as"/>
+<element path="/Showcase"/>
 </selection>
 </viewState>
 </view>
@@ -663,16 +661,10 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/Showcase/src/com/flexproject/views/MainView.mxml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/components/MainChartPanel.as"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/model/FlexProjectPM.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/components/ButtonPopUP.as"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/Showcase/src/com/flexproject/skins/GroupButtonSkin.mxml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/Showcase/src/com/flexproject/skins/ButtonSkin.mxml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/Showcase/src/Showcase.mxml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/components/MainButtonGroup.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/Showcase/src/com/flexproject/skins/ResizableTitleWindowSkin.mxml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.mxml.editor.MXMLCodeEditor" path="/Showcase/src/com/flexproject/skins/GroupButtonSkin.mxml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/events/FlexProjectPMEvents.as"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/mock/MockConsumer.as"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/components/MainButtonGroup.as"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/Showcase/src/com/flexproject/skins/ChartPanelSkin.mxml"/>
@@ -681,156 +673,172 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/Showcase/src/com/flexproject/views/MainView.mxml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" path="/Showcase/src/config.properties"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/components/ButtonBar.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/Showcase/src/Showcase.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/Showcase/src/com/flexproject/views/MainView.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/model/FlexProjectPM.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/model/CountriesDB.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/mock/MockConsumer.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/mock/MockMessage.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/Showcase/src/com/flexproject/utils/ResizeHandleLines.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/utils/ResizeManager.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/Showcase/src/com/flexproject/skins/GroupButtonSkin.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/Showcase/src/com/flexproject/skins/DataGridSkin.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/Showcase/src/com/flexproject/skins/ChartPanelSkin.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/Showcase/src/com/flexproject/skins/ButtonSkin.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/components/ButtonPopUP.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/components/MainButtonGroup.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/components/MainDatagridPanel.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/Showcase/src/com/flexproject/components/ResizableTitleWindow.as"/>
 </editors>
-<item historyLabel="Showcase.mxml" index="6">
-<position info="not_deleted" x="1708" y="0"/>
-</item>
-<item historyLabel="MainView.mxml" index="0">
-<position/>
-</item>
-<item historyLabel="Showcase.mxml" index="6">
-<position info="not_deleted" x="1623" y="0"/>
-</item>
-<item historyLabel="MainView.mxml" index="0">
-<position/>
-</item>
-<item historyLabel="Showcase.mxml" index="6">
-<position info="not_deleted" x="1708" y="0"/>
-</item>
-<item historyLabel="MainView.mxml" index="0">
-<position/>
-</item>
-<item historyLabel="MainButtonGroup.as" index="7">
-<position info="not_deleted" x="292" y="15"/>
-</item>
-<item historyLabel="ResizableTitleWindowSkin.mxml" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ButtonSkin.mxml" index="5">
-<position info="not_deleted" x="304" y="0"/>
-</item>
-<item historyLabel="GroupButtonSkin.mxml" index="4">
-<position info="not_deleted" x="535" y="0"/>
-</item>
-<item historyLabel="GroupButtonSkin.mxml" index="9">
-<position info="not_deleted" x="367" y="0"/>
-</item>
-<item historyLabel="GroupButtonSkin.mxml" index="9">
-<position info="not_deleted" x="566" y="0"/>
-</item>
-<item historyLabel="MainChartPanel.as" index="1">
-<position info="not_deleted" x="2172" y="1772"/>
-</item>
-<item historyLabel="ButtonPopUP.as" index="3">
-<position info="not_deleted" x="731" y="0"/>
-</item>
-<item historyLabel="ResizableTitleWindowSkin.mxml" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ButtonSkin.mxml" index="5">
-<position info="not_deleted" x="304" y="0"/>
-</item>
-<item historyLabel="GroupButtonSkin.mxml" index="4">
-<position info="not_deleted" x="566" y="0"/>
-</item>
-<item historyLabel="GroupButtonSkin.mxml" index="9">
-<position info="not_deleted" x="301" y="0"/>
-</item>
-<item historyLabel="MainButtonGroup.as" index="7">
+<item historyLabel="MainButtonGroup.as" index="4">
 <position info="not_deleted" x="1838" y="11"/>
 </item>
-<item historyLabel="MainView.mxml" index="0">
-<position info="not_deleted" x="5854" y="0"/>
-</item>
-<item historyLabel="FlexProjectPMEvents.as" index="10">
-<position info="not_deleted" x="131" y="19"/>
-</item>
-<item historyLabel="MainView.mxml" index="0">
-<position/>
-</item>
-<item historyLabel="FlexProjectPM.as" index="2">
-<position info="not_deleted" x="4455" y="0"/>
-</item>
-<item historyLabel="MockConsumer.as" index="11">
+<item historyLabel="MockConsumer.as" index="5">
 <position info="not_deleted" x="1505" y="0"/>
 </item>
-<item historyLabel="MainButtonGroup.as" index="7">
-<position info="not_deleted" x="1838" y="11"/>
-</item>
-<item historyLabel="FlexProjectPM.as" index="2">
-<position info="not_deleted" x="4455" y="0"/>
-</item>
-<item historyLabel="MainButtonGroup.as" index="7">
-<position info="not_deleted" x="1838" y="11"/>
-</item>
-<item historyLabel="MockConsumer.as" index="11">
-<position info="not_deleted" x="1505" y="0"/>
-</item>
-<item historyLabel="FlexProjectPM.as" index="2">
-<position info="not_deleted" x="4455" y="0"/>
-</item>
-<item historyLabel="MainButtonGroup.as" index="7">
-<position info="not_deleted" x="1838" y="11"/>
-</item>
-<item historyLabel="MockConsumer.as" index="11">
-<position info="not_deleted" x="1505" y="0"/>
-</item>
-<item historyLabel="GroupButtonSkin.mxml" index="4">
+<item historyLabel="GroupButtonSkin.mxml" index="2">
 <position info="not_deleted" x="629" y="0"/>
 </item>
 <item historyLabel="MainView.mxml" index="0">
 <position info="not_deleted" x="5878" y="0"/>
 </item>
-<item historyLabel="MainButtonGroup.as" index="7">
+<item historyLabel="MainButtonGroup.as" index="4">
 <position info="not_deleted" x="1838" y="11"/>
 </item>
-<item historyLabel="FlexProjectPM.as" index="2">
+<item historyLabel="FlexProjectPM.as" index="1">
 <position info="not_deleted" x="4455" y="0"/>
 </item>
-<item historyLabel="GroupButtonSkin.mxml" index="4">
+<item historyLabel="GroupButtonSkin.mxml" index="2">
 <position info="not_deleted" x="629" y="0"/>
 </item>
-<item historyLabel="MockConsumer.as" index="11">
+<item historyLabel="MockConsumer.as" index="5">
 <position info="not_deleted" x="1501" y="0"/>
 </item>
-<item historyLabel="GroupButtonSkin.mxml" index="4">
+<item historyLabel="GroupButtonSkin.mxml" index="2">
 <position info="not_deleted" x="830" y="123"/>
 </item>
 <item historyLabel="MainView.mxml" index="0">
 <position info="not_deleted" x="5855" y="0"/>
 </item>
-<item historyLabel="MainButtonGroup.as" index="12">
+<item historyLabel="MainButtonGroup.as" index="6">
 <position info="not_deleted" x="292" y="15"/>
 </item>
-<item historyLabel="ChartPanelSkin.mxml" index="13">
+<item historyLabel="ChartPanelSkin.mxml" index="7">
 <position info="not_deleted" x="619" y="0"/>
 </item>
-<item historyLabel="ButtonSkin.mxml" index="5">
+<item historyLabel="ButtonSkin.mxml" index="3">
 <position info="not_deleted" x="304" y="0"/>
 </item>
-<item historyLabel="GroupButtonSkin.mxml" index="14">
+<item historyLabel="GroupButtonSkin.mxml" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="FlexProjectStartFeedTester.as" index="15">
+<item historyLabel="FlexProjectStartFeedTester.as" index="9">
 <position info="not_deleted" x="1203" y="10"/>
 </item>
-<item historyLabel="GroupButtonSkin.mxml" index="14">
+<item historyLabel="GroupButtonSkin.mxml" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="MainView.mxml" index="16">
+<item historyLabel="MainView.mxml" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="config.properties" index="17">
+<item historyLabel="config.properties" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="MainView.mxml" index="16">
+<item historyLabel="MainView.mxml" index="10">
 <position info="not_deleted" x="5912" y="0"/>
 </item>
-<item historyLabel="ButtonSkin.mxml" index="5">
+<item historyLabel="ButtonSkin.mxml" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="ButtonBar.as" index="18">
+<item historyLabel="ButtonBar.as" index="12">
 <position info="not_deleted" x="844" y="0"/>
+</item>
+<item historyLabel="Showcase.mxml" index="13">
+<position info="not_deleted" x="1721" y="0"/>
+</item>
+<item historyLabel="MainView.mxml" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="FlexProjectPM.as" index="15">
+<position info="not_deleted" x="4455" y="0"/>
+</item>
+<item historyLabel="CountriesDB.as" index="16">
+<position info="not_deleted" x="7026" y="0"/>
+</item>
+<item historyLabel="MockConsumer.as" index="17">
+<position info="not_deleted" x="1501" y="0"/>
+</item>
+<item historyLabel="MockMessage.as" index="18">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="FlexProjectPM.as" index="15">
+<position info="not_deleted" x="2565" y="0"/>
+</item>
+<item historyLabel="MockConsumer.as" index="17">
+<position info="not_deleted" x="579" y="12"/>
+</item>
+<item historyLabel="MockConsumer.as" index="17">
+<position info="not_deleted" x="1437" y="0"/>
+</item>
+<item historyLabel="MockConsumer.as" index="17">
+<position info="not_deleted" x="1602" y="20"/>
+</item>
+<item historyLabel="MockMessage.as" index="18">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="FlexProjectPM.as" index="15">
+<position info="not_deleted" x="2565" y="0"/>
+</item>
+<item historyLabel="FlexProjectPM.as" index="15">
+<position info="not_deleted" x="2637" y="0"/>
+</item>
+<item historyLabel="FlexProjectPM.as" index="15">
+<position info="not_deleted" x="2762" y="19"/>
+</item>
+<item historyLabel="ResizeHandleLines.mxml" index="19">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ResizeManager.as" index="20">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ResizeHandleLines.mxml" index="19">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="FlexProjectPM.as" index="15">
+<position info="not_deleted" x="2762" y="19"/>
+</item>
+<item historyLabel="GroupButtonSkin.mxml" index="21">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="DataGridSkin.mxml" index="22">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ChartPanelSkin.mxml" index="23">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ButtonSkin.mxml" index="24">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ButtonBar.as" index="12">
+<position info="not_deleted" x="407" y="0"/>
+</item>
+<item historyLabel="ButtonBar.as" index="12">
+<position info="not_deleted" x="1567" y="0"/>
+</item>
+<item historyLabel="ButtonPopUP.as" index="25">
+<position info="not_deleted" x="731" y="0"/>
+</item>
+<item historyLabel="MainButtonGroup.as" index="26">
+<position info="not_deleted" x="292" y="15"/>
+</item>
+<item historyLabel="MainDatagridPanel.as" index="27">
+<position info="not_deleted" x="796" y="105"/>
+</item>
+<item historyLabel="ResizableTitleWindow.as" index="28">
+<position info="not_deleted" x="36" y="0"/>
+</item>
+<item active="true" historyLabel="ButtonBar.as" index="12">
+<position info="not_deleted" x="1567" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -849,6 +857,18 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ResizableTitleWindow.as" tooltip="Showcase/src/com/flexproject/components/ResizableTitleWindow.as">
+<persistable path="/Showcase/src/com/flexproject/components/ResizableTitleWindow.as"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ResizeManager.as" tooltip="Showcase/src/com/flexproject/utils/ResizeManager.as">
+<persistable path="/Showcase/src/com/flexproject/utils/ResizeManager.as"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ResizeHandleLines.mxml" tooltip="Showcase/src/com/flexproject/utils/ResizeHandleLines.mxml">
+<persistable path="/Showcase/src/com/flexproject/utils/ResizeHandleLines.mxml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="MockMessage.as" tooltip="Showcase/src/com/flexproject/mock/MockMessage.as">
+<persistable path="/Showcase/src/com/flexproject/mock/MockMessage.as"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="config.properties" tooltip="Showcase/src/config.properties">
 <persistable path="/Showcase/src/config.properties"/>
 </file>
@@ -881,15 +901,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FlexProjectPM.as" tooltip="Showcase/src/com/flexproject/model/FlexProjectPM.as">
 <persistable path="/Showcase/src/com/flexproject/model/FlexProjectPM.as"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ButtonPopUP.as" tooltip="Showcase/src/com/flexproject/components/ButtonPopUP.as">
-<persistable path="/Showcase/src/com/flexproject/components/ButtonPopUP.as"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ChartPanelSkin.mxml" tooltip="Showcase/src/com/flexproject/skins/ChartPanelSkin.mxml">
-<persistable path="/Showcase/src/com/flexproject/skins/ChartPanelSkin.mxml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ButtonSkin.mxml" tooltip="Showcase/src/com/flexproject/skins/ButtonSkin.mxml">
-<persistable path="/Showcase/src/com/flexproject/skins/ButtonSkin.mxml"/>
 </file>
 </mruList>
 </workbench>
